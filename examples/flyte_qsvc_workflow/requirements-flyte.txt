@@ -1,0 +1,22 @@
+# 与 workflow.py 中的 ImageSpec(packages=...) 字段保持一致 ——
+# flyte 在远程构建容器镜像时,如果用 ImageSpec 就走 packages 字段;
+# 这个 txt 是给"本地开发 + sanity check"准备的:
+#
+#   pip install -r requirements-flyte.txt
+#   pyflyte run workflow.py qsvc_workflow --n 2
+#
+# 之所以与 ImageSpec 写两份(看似重复),是因为 flyte 官方推荐做法 ——
+# ImageSpec 用于 container build 时(运行环境),requirements txt 用于
+# 本地开发时(调用 pyflyte CLI 自身需要 flytekit 已就绪)。
+
+flytekit>=1.13
+qiskit>=2.0
+qiskit-aer>=0.15
+qiskit-machine-learning>=0.8
+numpy>=2.0
+scipy>=1.10
+scikit-learn>=1.2
+matplotlib>=3.7
+seaborn>=0.13
+dill>=0.3
+pylatexenc>=2.10

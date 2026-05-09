@@ -1,0 +1,24 @@
+# 复现本 demo 运行环境的 conda 描述文件。
+#
+# 用法（新机器从零开始）:
+#   conda env create -f environment.yml -n qml-demo
+#   conda activate qml-demo
+#   pip install -e ../..        # editable 安装本仓库的 qiskit-machine-learning
+#
+# 已有 qml 环境(本机情形)直接 conda activate qml 即可,无需新建。
+name: qml-demo
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - qiskit>=2.0
+      - qiskit-aer>=0.15
+      - numpy>=2.0
+      - scipy>=1.10
+      - scikit-learn>=1.2
+      - matplotlib>=3.7
+      - seaborn>=0.13
+      - dill>=0.3.4
+      - pylatexenc>=2.10  # qiskit 电路图 mpl 后端的可选依赖

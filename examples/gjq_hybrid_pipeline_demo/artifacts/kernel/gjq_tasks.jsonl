@@ -1,0 +1,14 @@
+{"matrix": "train", "row": 0, "col": 1, "backend": "Yudu", "instanceId": "5363b484-3832-4d11-b8f8-d362105a42c8", "fidelity": 0.449, "counts_preview": {"00": 449.0, "01": 374.0, "10": 121.0, "11": 56.0}}
+{"matrix": "train", "row": 0, "col": 2, "backend": "Yudu", "instanceId": "9259b14e-92bf-4ff4-a2e7-5fa4199a63a0", "fidelity": 0.369, "counts_preview": {"00": 369.0, "10": 305.0, "01": 195.0, "11": 131.0}}
+{"matrix": "train", "row": 0, "col": 3, "backend": "Yudu", "instanceId": "87528a21-fa6e-4623-b693-54d65d8c12c3", "fidelity": 0.535, "counts_preview": {"00": 535.0, "01": 270.0, "11": 143.0, "10": 52.0}}
+{"matrix": "train", "row": 1, "col": 2, "backend": "Yudu", "instanceId": "ccc5d83a-6fd5-4d4b-b294-eff071bd28e0", "fidelity": 0.328, "counts_preview": {"11": 455.0, "00": 328.0, "01": 138.0, "10": 79.0}}
+{"matrix": "train", "row": 1, "col": 3, "backend": "Yudu", "instanceId": "77d5184e-026f-47a0-b08f-4e0fa2728598", "fidelity": 0.235, "counts_preview": {"01": 469.0, "11": 260.0, "00": 235.0, "10": 36.0}}
+{"matrix": "train", "row": 2, "col": 3, "backend": "Yudu", "instanceId": "a39bf3be-8939-4c2d-8678-f301900e9992", "fidelity": 0.408, "counts_preview": {"00": 408.0, "10": 309.0, "11": 186.0, "01": 97.0}}
+{"matrix": "test", "row": 0, "col": 0, "backend": "Yudu", "instanceId": "52b0f9d8-ad0a-4a65-a8a0-51003f49e7c1", "fidelity": 0.214, "counts_preview": {"11": 356.0, "01": 293.0, "00": 214.0, "10": 137.0}}
+{"matrix": "test", "row": 0, "col": 1, "backend": "Yudu", "instanceId": "3073beda-17d6-4ce9-90b2-96d654bf0b34", "fidelity": 0.405, "counts_preview": {"00": 405.0, "01": 335.0, "11": 130.0, "10": 130.0}}
+{"matrix": "test", "row": 0, "col": 2, "backend": "Yudu", "instanceId": "d39ea58a-8af6-43d0-af38-7cf831a60afc", "fidelity": 0.395, "counts_preview": {"00": 395.0, "11": 286.0, "10": 198.0, "01": 121.0}}
+{"matrix": "test", "row": 0, "col": 3, "backend": "Yudu", "instanceId": "c5388394-4308-458f-9d11-90e8f4dcf43d", "fidelity": 0.066, "counts_preview": {"11": 495.0, "01": 248.0, "10": 191.0, "00": 66.0}}
+{"matrix": "test", "row": 1, "col": 0, "backend": "Yudu", "instanceId": "d1f3240a-d6e5-4c10-b2cd-852fd9417586", "fidelity": 0.114, "counts_preview": {"11": 464.0, "01": 274.0, "10": 148.0, "00": 114.0}}
+{"matrix": "test", "row": 1, "col": 1, "backend": "Yudu", "instanceId": "b84b5e8f-5cd9-4ca9-8a70-687a0eddef4e", "fidelity": 0.29, "counts_preview": {"10": 326.0, "00": 290.0, "11": 228.0, "01": 156.0}}
+{"matrix": "test", "row": 1, "col": 2, "backend": "Yudu", "instanceId": "850cc041-a6b9-456e-a71c-d011eaa3d0d9", "fidelity": 0.078, "counts_preview": {"01": 541.0, "11": 354.0, "00": 78.0, "10": 27.0}}
+{"matrix": "test", "row": 1, "col": 3, "backend": "Yudu", "instanceId": "75cc9bbb-074f-4975-977a-81cc60322fd9", "fidelity": 0.244, "counts_preview": {"01": 283.0, "11": 244.0, "00": 244.0, "10": 229.0}}

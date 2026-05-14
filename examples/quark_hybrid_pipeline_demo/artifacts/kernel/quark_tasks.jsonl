@@ -1,0 +1,14 @@
+{"matrix": "train", "row": 0, "col": 1, "task_id": "2605130920386581979", "status": "Finished", "fidelity": 0.48828125, "counts_preview": {"00": 500.0, "10": 438.0, "01": 60.0, "11": 26.0}}
+{"matrix": "train", "row": 0, "col": 2, "task_id": "2605130920431333216", "status": "Finished", "fidelity": 0.3583984375, "counts_preview": {"00": 367.0, "01": 335.0, "10": 199.0, "11": 123.0}}
+{"matrix": "train", "row": 0, "col": 3, "task_id": "2605130920463657612", "status": "Finished", "fidelity": 0.587890625, "counts_preview": {"00": 602.0, "10": 186.0, "11": 153.0, "01": 83.0}}
+{"matrix": "train", "row": 1, "col": 2, "task_id": "2605130920496024781", "status": "Finished", "fidelity": 0.275390625, "counts_preview": {"11": 511.0, "00": 282.0, "01": 130.0, "10": 101.0}}
+{"matrix": "train", "row": 1, "col": 3, "task_id": "2605130920540799531", "status": "Finished", "fidelity": 0.291015625, "counts_preview": {"11": 308.0, "10": 307.0, "00": 298.0, "01": 111.0}}
+{"matrix": "train", "row": 2, "col": 3, "task_id": "2605130920573616365", "status": "Finished", "fidelity": 0.40234375, "counts_preview": {"00": 412.0, "01": 333.0, "11": 179.0, "10": 100.0}}
+{"matrix": "test", "row": 0, "col": 0, "task_id": "2605130921006025313", "status": "Finished", "fidelity": 0.2138671875, "counts_preview": {"11": 414.0, "10": 252.0, "00": 219.0, "01": 139.0}}
+{"matrix": "test", "row": 0, "col": 1, "task_id": "2605130921038438594", "status": "Finished", "fidelity": 0.3564453125, "counts_preview": {"10": 380.0, "00": 365.0, "01": 180.0, "11": 99.0}}
+{"matrix": "test", "row": 0, "col": 2, "task_id": "2605130921070713296", "status": "Finished", "fidelity": 0.330078125, "counts_preview": {"00": 338.0, "11": 323.0, "01": 275.0, "10": 88.0}}
+{"matrix": "test", "row": 0, "col": 3, "task_id": "2605130921103346033", "status": "Finished", "fidelity": 0.080078125, "counts_preview": {"11": 527.0, "01": 214.0, "10": 201.0, "00": 82.0}}
+{"matrix": "test", "row": 1, "col": 0, "task_id": "2605130921135777559", "status": "Finished", "fidelity": 0.1171875, "counts_preview": {"11": 458.0, "10": 275.0, "01": 171.0, "00": 120.0}}
+{"matrix": "test", "row": 1, "col": 1, "task_id": "2605130921180572152", "status": "Finished", "fidelity": 0.2255859375, "counts_preview": {"01": 408.0, "00": 231.0, "11": 217.0, "10": 168.0}}
+{"matrix": "test", "row": 1, "col": 2, "task_id": "2605130921225427225", "status": "Finished", "fidelity": 0.111328125, "counts_preview": {"10": 569.0, "11": 304.0, "00": 114.0, "01": 37.0}}
+{"matrix": "test", "row": 1, "col": 3, "task_id": "2605130921273204767", "status": "Finished", "fidelity": 0.2978515625, "counts_preview": {"00": 305.0, "10": 255.0, "11": 239.0, "01": 225.0}}

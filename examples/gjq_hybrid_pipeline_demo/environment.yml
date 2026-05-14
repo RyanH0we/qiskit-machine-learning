@@ -1,0 +1,25 @@
+# 复现本 demo 运行环境的 conda 描述文件。
+#
+# 用法（从仓库根目录执行）:
+#   conda env create -f examples/gjq_hybrid_pipeline_demo/environment.yml
+#   conda activate qml-gjq
+#   pip install -e . --no-deps
+#
+# 本环境与其他 demo 环境隔离，避免 gjq-client 或其依赖影响本机已有环境。
+name: qml-gjq
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - qiskit>=2.0
+      - qiskit-aer>=0.15
+      - numpy>=2.0
+      - scipy>=1.10
+      - scikit-learn>=1.2
+      - matplotlib>=3.7
+      - seaborn>=0.13
+      - dill>=0.3.4
+      - pylatexenc>=2.10
+      - gjq-client

@@ -1,0 +1,25 @@
+# VQE H2 示例的可复现 conda 环境。
+#
+# 用法：
+#   conda env create -f examples/vqe_h2_pipeline_demo/environment.yml
+#   conda activate qml-vqe-h2
+#   pip install -e .
+#
+# 如果当前目录已在 examples/vqe_h2_pipeline_demo/：
+#   pip install -e ../..
+name: qml-vqe-h2
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - "qiskit>=2,<3"
+      - "qiskit-algorithms==0.4.0"
+      - "qiskit-nature[pyscf]==0.7.2"
+      - "qiskit-aer>=0.17"
+      - "numpy>=2.0"
+      - "scipy>=1.10"
+      - "matplotlib>=3.7"
+      - "dill>=0.3.4"
+      - "pylatexenc>=2.10"

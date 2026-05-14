@@ -1,0 +1,26 @@
+# 复现本 demo 运行环境的 conda 描述文件。
+#
+# 用法（新机器从零开始）:
+#   conda env create -f environment.yml
+#   conda activate qml-quark
+#   pip install -e ../.. --no-deps
+#
+# pyquafu 当前要求 numpy<2.0；本示例已在 numpy 1.26.4 下跑通过 Quark 真机 smoke test。
+name: qml-quark
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - qiskit>=2.0
+      - qiskit-aer>=0.15
+      - numpy<2.0
+      - scipy>=1.10
+      - scikit-learn>=1.2
+      - matplotlib>=3.7
+      - seaborn>=0.13
+      - dill>=0.3.4
+      - pylatexenc>=2.10  # qiskit 电路图 mpl 后端的可选依赖
+      - quarkstudio
+      - pyquafu

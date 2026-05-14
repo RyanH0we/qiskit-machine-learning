@@ -1,0 +1,13 @@
+{
+  "estimator": "StatevectorEstimator",
+  "estimator_std": 0.0,
+  "initial_electronic_energy_hartree": -1.8369679912029837,
+  "initial_point": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "initial_total_energy_hartree": -1.116998996754004,
+  "nuclear_repulsion_energy_hartree": 0.7199689944489797,
+  "seed": 42
+}

@@ -1,0 +1,9 @@
+{
+  "exact_electronic_energy_hartree": -1.8572750302023784,
+  "exact_total_energy_hartree": -1.1373060357533986,
+  "hartree_fock_error_ev": 0.5525826817248702,
+  "hartree_fock_error_hartree": 0.020307038999394678,
+  "hartree_fock_total_energy_hartree": -1.116998996754004,
+  "method": "NumPyMinimumEigensolver",
+  "nuclear_repulsion_energy_hartree": 0.7199689944489797
+}

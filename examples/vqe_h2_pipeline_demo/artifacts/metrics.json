@@ -1,0 +1,21 @@
+{
+  "chemical_accuracy_ev": 0.0435382179935808,
+  "chemical_accuracy_hartree": 0.0016,
+  "energies_hartree": {
+    "exact": -1.1373060357533986,
+    "hartree_fock": -1.116998996754004,
+    "initial_ansatz": -1.116998996754004,
+    "vqe": -1.1373060356960862
+  },
+  "errors_ev": {
+    "initial_ansatz_abs_error": 0.5525826817248702,
+    "vqe_abs_error": 1.5595492290297785e-09
+  },
+  "errors_hartree": {
+    "initial_ansatz_abs_error": 0.020307038999394678,
+    "vqe_abs_error": 5.731237706640968e-11
+  },
+  "improvement_from_initial_hartree": 0.0203070389420823,
+  "vqe_passes_1e_minus_3_hartree": true,
+  "vqe_within_chemical_accuracy": true
+}

@@ -1,0 +1,25 @@
+{
+  "atom": "H 0 0 0; H 0 0 0.735000000000",
+  "basis": "sto3g",
+  "bond_length_angstrom": 0.735,
+  "charge": 0,
+  "description": "氢分子基态能量 VQE 示例输入",
+  "driver": "PySCFDriver",
+  "geometry": [
+    {
+      "element": "H",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    {
+      "element": "H",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.735
+    }
+  ],
+  "name": "H2",
+  "spin": 0,
+  "unit": "Angstrom"
+}

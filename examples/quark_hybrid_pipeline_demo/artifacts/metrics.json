@@ -1,0 +1,57 @@
+{
+  "models": {
+    "qsvc": {
+      "name": "QSVC",
+      "kind": "hybrid",
+      "train_acc": 1.0,
+      "test_acc": 1.0,
+      "confusion_matrix_train": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "confusion_matrix_test": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    "classical_svc": {
+      "name": "Classical SVC (RBF)",
+      "kind": "classical",
+      "train_acc": 0.75,
+      "test_acc": 1.0,
+      "confusion_matrix_train": [
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "confusion_matrix_test": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  "quantum_advantage_test_acc": 0.0
+}

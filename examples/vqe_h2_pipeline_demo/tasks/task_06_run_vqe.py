@@ -9,6 +9,7 @@ from __future__ import annotations
 import argparse
 import csv
 import sys
+import time
 import warnings
 from pathlib import Path
 
@@ -67,6 +68,11 @@ def _as_float(value) -> float | None:
         return None
 
 
+def _extract_estimator_value(pub_result) -> float:
+    evs = np.asarray(pub_result.data.evs).reshape(-1)
+    return float(np.real(evs[0]))
+
+
 def _write_trace(trace: list[dict], out_path: Path, num_parameters: int) -> None:
     out = ensure_parent_dir(out_path)
     fields = ["eval_count", "electronic_energy_hartree", "total_energy_hartree"]
@@ -80,6 +86,10 @@ def _write_trace(trace: list[dict], out_path: Path, num_parameters: int) -> None
                 "electronic_energy_hartree": row["electronic_energy_hartree"],
                 "total_energy_hartree": row["total_energy_hartree"],
             }
+            if len(row["parameters"]) != num_parameters:
+                raise ValueError(
+                    f"trace 参数长度 {len(row['parameters'])} 与 ansatz 参数数 {num_parameters} 不一致"
+                )
             for i, value in enumerate(row["parameters"]):
                 flat[f"theta_{i}"] = value
             writer.writerow(flat)
@@ -119,8 +129,6 @@ def main() -> int:
     print(f"  optimizer = {args.optimizer}, maxiter = {args.maxiter}")
     print(f"  estimator = StatevectorEstimator(seed={args.seed})")
 
-    from qiskit_algorithms import VQE
-
     with args.problem.open("rb") as f:
         problem_pkg = dill.load(f)
     with args.ansatz.open("rb") as f:
@@ -132,35 +140,35 @@ def main() -> int:
 
     trace: list[dict] = []
 
-    def callback(eval_count: int, parameters: np.ndarray, energy: float, metadata: dict) -> None:  # noqa: ARG001
-        electronic = float(np.real(energy))
+    estimator = create_estimator(seed=args.seed)
+    optimizer = _make_optimizer(args.optimizer, args.maxiter)
+
+    def objective(parameters: np.ndarray) -> float:
+        point = np.asarray(parameters, dtype=float).reshape(-1)
+        result = estimator.run([(ansatz, qubit_operator, point)]).result()
+        electronic = _extract_estimator_value(result[0])
+        flat_parameters = np.asarray(parameters, dtype=float).reshape(-1)
+        eval_count = len(trace) + 1
         trace.append(
             {
-                "eval_count": int(eval_count),
+                "eval_count": eval_count,
                 "electronic_energy_hartree": electronic,
                 "total_energy_hartree": electronic + nuclear,
-                "parameters": [float(x) for x in parameters],
+                "parameters": [float(x) for x in flat_parameters],
             }
         )
         if eval_count == 1 or eval_count % 5 == 0:
             print(f"  eval {eval_count:03d}: total energy = {electronic + nuclear:.12f} Hartree")
-
-    estimator = create_estimator(seed=args.seed)
-    optimizer = _make_optimizer(args.optimizer, args.maxiter)
-    vqe = VQE(
-        estimator,
-        ansatz,
-        optimizer,
-        initial_point=initial_point,
-        callback=callback,
-    )
+        return electronic
 
     with Timer("VQE 量子-经典迭代"):
-        result = vqe.compute_minimum_eigenvalue(qubit_operator)
+        t0 = time.perf_counter()
+        result = optimizer.minimize(fun=objective, x0=np.asarray(initial_point, dtype=float))
+        optimizer_time = time.perf_counter() - t0
 
-    final_electronic = float(np.real(result.eigenvalue))
+    final_electronic = float(np.real(result.fun))
     final_total = final_electronic + nuclear
-    optimal_point = getattr(result, "optimal_point", None)
+    optimal_point = getattr(result, "x", None)
     if optimal_point is None:
         optimal_point_list: list[float] = []
     else:
@@ -178,9 +186,9 @@ def main() -> int:
         "optimal_point": optimal_point_list,
         "num_parameters": int(ansatz.num_parameters),
         "num_evaluations_recorded": len(trace),
-        "cost_function_evals": _as_float(getattr(result, "cost_function_evals", None)),
-        "optimizer_time_seconds": _as_float(getattr(result, "optimizer_time", None)),
-        "raw_optimal_value_hartree": _as_float(getattr(result, "optimal_value", None)),
+        "cost_function_evals": _as_float(getattr(result, "nfev", None)),
+        "optimizer_time_seconds": optimizer_time,
+        "raw_optimal_value_hartree": _as_float(getattr(result, "fun", None)),
     }
     if args.reference:
         reference = read_json(args.reference)

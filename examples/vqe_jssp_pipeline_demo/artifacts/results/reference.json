@@ -1,0 +1,493 @@
+{
+  "exact_min_energy_bitstring": "01010001001001",
+  "exact_min_qubo_energy": 4.0,
+  "known_optimal_makespan_from_instance": 4,
+  "method": "brute_force_enumeration",
+  "num_enumerated_states": 16384,
+  "num_feasible_states": 24,
+  "num_variables": 14,
+  "optimal_bitstring": "01010001001001",
+  "optimal_makespan": 4,
+  "optimal_qubo_energy": 4.0,
+  "optimal_schedule": [
+    {
+      "duration": 2,
+      "finish": 2,
+      "job": 0,
+      "label": "J0O0",
+      "machine": 0,
+      "operation": 0,
+      "start": 0
+    },
+    {
+      "duration": 2,
+      "finish": 4,
+      "job": 1,
+      "label": "J1O1",
+      "machine": 0,
+      "operation": 1,
+      "start": 2
+    },
+    {
+      "duration": 1,
+      "finish": 1,
+      "job": 1,
+      "label": "J1O0",
+      "machine": 1,
+      "operation": 0,
+      "start": 0
+    },
+    {
+      "duration": 1,
+      "finish": 3,
+      "job": 0,
+      "label": "J0O1",
+      "machine": 1,
+      "operation": 1,
+      "start": 2
+    }
+  ],
+  "optimal_selected_cmax": 4,
+  "top_feasible": [
+    {
+      "bitstring": "01010001001001",
+      "makespan": 4,
+      "qubo_energy": 4.0,
+      "schedule": [
+        {
+          "duration": 2,
+          "finish": 2,
+          "job": 0,
+          "label": "J0O0",
+          "machine": 0,
+          "operation": 0,
+          "start": 0
+        },
+        {
+          "duration": 2,
+          "finish": 4,
+          "job": 1,
+          "label": "J1O1",
+          "machine": 0,
+          "operation": 1,
+          "start": 2
+        },
+        {
+          "duration": 1,
+          "finish": 1,
+          "job": 1,
+          "label": "J1O0",
+          "machine": 1,
+          "operation": 0,
+          "start": 0
+        },
+        {
+          "duration": 1,
+          "finish": 3,
+          "job": 0,
+          "label": "J0O1",
+          "machine": 1,
+          "operation": 1,
+          "start": 2
+        }
+      ],
+      "selected_cmax": 4
+    },
+    {
+      "bitstring": "01010001010001",
+      "makespan": 4,
+      "qubo_energy": 4.0,
+      "schedule": [
+        {
+          "duration": 2,
+          "finish": 2,
+          "job": 0,
+          "label": "J0O0",
+          "machine": 0,
+          "operation": 0,
+          "start": 0
+        },
+        {
+          "duration": 2,
+          "finish": 4,
+          "job": 1,
+          "label": "J1O1",
+          "machine": 0,
+          "operation": 1,
+          "start": 2
+        },
+        {
+          "duration": 1,
+          "finish": 1,
+          "job": 1,
+          "label": "J1O0",
+          "machine": 1,
+          "operation": 0,
+          "start": 0
+        },
+        {
+          "duration": 1,
+          "finish": 4,
+          "job": 0,
+          "label": "J0O1",
+          "machine": 1,
+          "operation": 1,
+          "start": 3
+        }
+      ],
+      "selected_cmax": 4
+    },
+    {
+      "bitstring": "01010010001001",
+      "makespan": 4,
+      "qubo_energy": 4.0,
+      "schedule": [
+        {
+          "duration": 2,
+          "finish": 2,
+          "job": 0,
+          "label": "J0O0",
+          "machine": 0,
+          "operation": 0,
+          "start": 0
+        },
+        {
+          "duration": 2,
+          "finish": 4,
+          "job": 1,
+          "label": "J1O1",
+          "machine": 0,
+          "operation": 1,
+          "start": 2
+        },
+        {
+          "duration": 1,
+          "finish": 2,
+          "job": 1,
+          "label": "J1O0",
+          "machine": 1,
+          "operation": 0,
+          "start": 1
+        },
+        {
+          "duration": 1,
+          "finish": 3,
+          "job": 0,
+          "label": "J0O1",
+          "machine": 1,
+          "operation": 1,
+          "start": 2
+        }
+      ],
+      "selected_cmax": 4
+    },
+    {
+      "bitstring": "01010010010001",
+      "makespan": 4,
+      "qubo_energy": 4.0,
+      "schedule": [
+        {
+          "duration": 2,
+          "finish": 2,
+          "job": 0,
+          "label": "J0O0",
+          "machine": 0,
+          "operation": 0,
+          "start": 0
+        },
+        {
+          "duration": 2,
+          "finish": 4,
+          "job": 1,
+          "label": "J1O1",
+          "machine": 0,
+          "operation": 1,
+          "start": 2
+        },
+        {
+          "duration": 1,
+          "finish": 2,
+          "job": 1,
+          "label": "J1O0",
+          "machine": 1,
+          "operation": 0,
+          "start": 1
+        },
+        {
+          "duration": 1,
+          "finish": 4,
+          "job": 0,
+          "label": "J0O1",
+          "machine": 1,
+          "operation": 1,
+          "start": 3
+        }
+      ],
+      "selected_cmax": 4
+    },
+    {
+      "bitstring": "10010001001001",
+      "makespan": 4,
+      "qubo_energy": 5.0,
+      "schedule": [
+        {
+          "duration": 2,
+          "finish": 2,
+          "job": 0,
+          "label": "J0O0",
+          "machine": 0,
+          "operation": 0,
+          "start": 0
+        },
+        {
+          "duration": 2,
+          "finish": 4,
+          "job": 1,
+          "label": "J1O1",
+          "machine": 0,
+          "operation": 1,
+          "start": 2
+        },
+        {
+          "duration": 1,
+          "finish": 1,
+          "job": 1,
+          "label": "J1O0",
+          "machine": 1,
+          "operation": 0,
+          "start": 0
+        },
+        {
+          "duration": 1,
+          "finish": 3,
+          "job": 0,
+          "label": "J0O1",
+          "machine": 1,
+          "operation": 1,
+          "start": 2
+        }
+      ],
+      "selected_cmax": 5
+    },
+    {
+      "bitstring": "10010001010001",
+      "makespan": 4,
+      "qubo_energy": 5.0,
+      "schedule": [
+        {
+          "duration": 2,
+          "finish": 2,
+          "job": 0,
+          "label": "J0O0",
+          "machine": 0,
+          "operation": 0,
+          "start": 0
+        },
+        {
+          "duration": 2,
+          "finish": 4,
+          "job": 1,
+          "label": "J1O1",
+          "machine": 0,
+          "operation": 1,
+          "start": 2
+        },
+        {
+          "duration": 1,
+          "finish": 1,
+          "job": 1,
+          "label": "J1O0",
+          "machine": 1,
+          "operation": 0,
+          "start": 0
+        },
+        {
+          "duration": 1,
+          "finish": 4,
+          "job": 0,
+          "label": "J0O1",
+          "machine": 1,
+          "operation": 1,
+          "start": 3
+        }
+      ],
+      "selected_cmax": 5
+    },
+    {
+      "bitstring": "10010010001001",
+      "makespan": 4,
+      "qubo_energy": 5.0,
+      "schedule": [
+        {
+          "duration": 2,
+          "finish": 2,
+          "job": 0,
+          "label": "J0O0",
+          "machine": 0,
+          "operation": 0,
+          "start": 0
+        },
+        {
+          "duration": 2,
+          "finish": 4,
+          "job": 1,
+          "label": "J1O1",
+          "machine": 0,
+          "operation": 1,
+          "start": 2
+        },
+        {
+          "duration": 1,
+          "finish": 2,
+          "job": 1,
+          "label": "J1O0",
+          "machine": 1,
+          "operation": 0,
+          "start": 1
+        },
+        {
+          "duration": 1,
+          "finish": 3,
+          "job": 0,
+          "label": "J0O1",
+          "machine": 1,
+          "operation": 1,
+          "start": 2
+        }
+      ],
+      "selected_cmax": 5
+    },
+    {
+      "bitstring": "10010010010001",
+      "makespan": 4,
+      "qubo_energy": 5.0,
+      "schedule": [
+        {
+          "duration": 2,
+          "finish": 2,
+          "job": 0,
+          "label": "J0O0",
+          "machine": 0,
+          "operation": 0,
+          "start": 0
+        },
+        {
+          "duration": 2,
+          "finish": 4,
+          "job": 1,
+          "label": "J1O1",
+          "machine": 0,
+          "operation": 1,
+          "start": 2
+        },
+        {
+          "duration": 1,
+          "finish": 2,
+          "job": 1,
+          "label": "J1O0",
+          "machine": 1,
+          "operation": 0,
+          "start": 1
+        },
+        {
+          "duration": 1,
+          "finish": 4,
+          "job": 0,
+          "label": "J0O1",
+          "machine": 1,
+          "operation": 1,
+          "start": 3
+        }
+      ],
+      "selected_cmax": 5
+    },
+    {
+      "bitstring": "10010001100001",
+      "makespan": 5,
+      "qubo_energy": 5.0,
+      "schedule": [
+        {
+          "duration": 2,
+          "finish": 2,
+          "job": 0,
+          "label": "J0O0",
+          "machine": 0,
+          "operation": 0,
+          "start": 0
+        },
+        {
+          "duration": 2,
+          "finish": 4,
+          "job": 1,
+          "label": "J1O1",
+          "machine": 0,
+          "operation": 1,
+          "start": 2
+        },
+        {
+          "duration": 1,
+          "finish": 1,
+          "job": 1,
+          "label": "J1O0",
+          "machine": 1,
+          "operation": 0,
+          "start": 0
+        },
+        {
+          "duration": 1,
+          "finish": 5,
+          "job": 0,
+          "label": "J0O1",
+          "machine": 1,
+          "operation": 1,
+          "start": 4
+        }
+      ],
+      "selected_cmax": 5
+    },
+    {
+      "bitstring": "10010010100001",
+      "makespan": 5,
+      "qubo_energy": 5.0,
+      "schedule": [
+        {
+          "duration": 2,
+          "finish": 2,
+          "job": 0,
+          "label": "J0O0",
+          "machine": 0,
+          "operation": 0,
+          "start": 0
+        },
+        {
+          "duration": 2,
+          "finish": 4,
+          "job": 1,
+          "label": "J1O1",
+          "machine": 0,
+          "operation": 1,
+          "start": 2
+        },
+        {
+          "duration": 1,
+          "finish": 2,
+          "job": 1,
+          "label": "J1O0",
+          "machine": 1,
+          "operation": 0,
+          "start": 1
+        },
+        {
+          "duration": 1,
+          "finish": 5,
+          "job": 0,
+          "label": "J0O1",
+          "machine": 1,
+          "operation": 1,
+          "start": 4
+        }
+      ],
+      "selected_cmax": 5
+    }
+  ]
+}

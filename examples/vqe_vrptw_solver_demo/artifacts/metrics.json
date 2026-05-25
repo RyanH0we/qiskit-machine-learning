@@ -1,0 +1,70 @@
+{
+  "acceptance": {
+    "all_customers_served_once": true,
+    "best_feasible_found": true,
+    "capacity_feasible": true,
+    "returns_to_depot": true,
+    "route_continuity_feasible": true,
+    "time_window_feasible": true,
+    "top_candidates_contain_feasible_solution": true,
+    "vqe_sampled_reference_distance": true,
+    "vqe_sampled_reference_qubo_energy": true
+  },
+  "decoded": {
+    "best_feasible_bitstring": "11000101001001010001",
+    "best_feasible_distance_is_reference": true,
+    "best_feasible_found": true,
+    "best_feasible_qubo_energy": 2.8284271247461987,
+    "best_feasible_qubo_energy_is_reference": true,
+    "best_feasible_total_distance": 8.0,
+    "best_measurement_feasible": true,
+    "best_measurement_qubo_energy": 2.8284271247461987,
+    "best_measurement_total_distance": 8.0,
+    "most_likely_feasible": true,
+    "num_feasible_sampled_bitstrings": 1,
+    "num_sampled_bitstrings": 12,
+    "top_candidates_contain_feasible_solution": true
+  },
+  "initial": {
+    "best_feasible_sample": {
+      "bitstring": "11000101001001010001",
+      "count": 1450,
+      "feasible": true,
+      "num_customers_served": 4,
+      "num_vehicles_used": 2,
+      "probability": 0.35400390625,
+      "qubo_energy": 2.8284271247461987,
+      "total_distance": 8.0,
+      "violations": []
+    },
+    "best_sample_by_energy": {
+      "bitstring": "11000101001001010001",
+      "count": 1450,
+      "feasible": true,
+      "num_customers_served": 4,
+      "num_vehicles_used": 2,
+      "probability": 0.35400390625,
+      "qubo_energy": 2.8284271247461987,
+      "total_distance": 8.0,
+      "violations": []
+    },
+    "mean_qubo_energy": 24.300591505876643
+  },
+  "reference": {
+    "best_feasible_bitstring": "10010100011100010100",
+    "best_feasible_qubo_energy": 2.8284271247461987,
+    "best_feasible_total_distance": 8.0,
+    "num_feasible_states": 2
+  },
+  "vqe": {
+    "best_measurement": {
+      "bitstring": "11000101001001010001",
+      "probability": 0.979736328125,
+      "state": null,
+      "value": 2.8284271247461987
+    },
+    "energy_gap_to_reference_feasible": 0.4415880473560847,
+    "mean_qubo_energy": 3.2700151721022834,
+    "num_evaluations_recorded": 120
+  }
+}

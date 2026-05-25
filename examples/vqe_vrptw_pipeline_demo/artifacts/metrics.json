@@ -1,0 +1,175 @@
+{
+  "exact_best_energy": 0.14427393343805872,
+  "exact_best_route_cost": 16.557900792370614,
+  "exact_best_route_id": "R01",
+  "exact_best_route_label": "A-B-C",
+  "exact_route_cost": 16.557900792370614,
+  "improvement_from_initial": 12.495824627775379,
+  "initial_energy": 12.640990491353483,
+  "invalid_probability": 0.0003844070498928015,
+  "one_hot_success_probability": 0.9996155929501072,
+  "route_cost_gap": 0.0,
+  "route_probabilities": [
+    {
+      "is_time_window_feasible": true,
+      "probability": 0.9996155641383703,
+      "route_cost": 16.557900792370614,
+      "route_id": "R01",
+      "route_label": "A-B-C"
+    },
+    {
+      "is_time_window_feasible": false,
+      "probability": 1.5277682714160888e-08,
+      "route_cost": 36.04235743302664,
+      "route_id": "R02",
+      "route_label": "A-C-B"
+    },
+    {
+      "is_time_window_feasible": false,
+      "probability": 6.561225403624325e-09,
+      "route_cost": 91.18964962625935,
+      "route_id": "R06",
+      "route_label": "C-B-A"
+    },
+    {
+      "is_time_window_feasible": false,
+      "probability": 4.9312106649300515e-09,
+      "route_cost": 47.256720393723825,
+      "route_id": "R03",
+      "route_label": "B-A-C"
+    },
+    {
+      "is_time_window_feasible": false,
+      "probability": 1.9364585712780716e-09,
+      "route_cost": 114.76709893322095,
+      "route_id": "R05",
+      "route_label": "C-A-B"
+    },
+    {
+      "is_time_window_feasible": false,
+      "probability": 1.0515909839326354e-10,
+      "route_cost": 70.84970896067969,
+      "route_id": "R04",
+      "route_label": "B-C-A"
+    }
+  ],
+  "top_probability_states": [
+    {
+      "bits": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "bitstring": "100000",
+      "energy": 0.14427393343805872,
+      "is_one_hot": true,
+      "num_selected_routes": 1,
+      "probability": 0.9996155641383703,
+      "qiskit_bitstring": "000001",
+      "selected_route_id": "R01",
+      "selected_route_label": "A-B-C"
+    },
+    {
+      "bits": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "bitstring": "110000",
+      "energy": 2.4583217552271104,
+      "is_one_hot": false,
+      "num_selected_routes": 2,
+      "probability": 0.00014974219712330294,
+      "qiskit_bitstring": "000011",
+      "selected_route_id": null,
+      "selected_route_label": null
+    },
+    {
+      "bits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "bitstring": "000000",
+      "energy": 2.0,
+      "is_one_hot": false,
+      "num_selected_routes": 0,
+      "probability": 0.00010198734704326443,
+      "qiskit_bitstring": "000000",
+      "selected_route_id": null,
+      "selected_route_label": null
+    },
+    {
+      "bits": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "bitstring": "100001",
+      "energy": 2.9388365779056995,
+      "is_one_hot": false,
+      "num_selected_routes": 2,
+      "probability": 6.430898756978549e-05,
+      "qiskit_bitstring": "100001",
+      "selected_route_id": null,
+      "selected_route_label": null
+    },
+    {
+      "bits": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "bitstring": "101000",
+      "energy": 2.556035848071981,
+      "is_one_hot": false,
+      "num_selected_routes": 2,
+      "probability": 4.833261256043338e-05,
+      "qiskit_bitstring": "000101",
+      "selected_route_id": null,
+      "selected_route_label": null
+    },
+    {
+      "bits": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "bitstring": "100010",
+      "energy": 3.1442739334380585,
+      "is_one_hot": false,
+      "num_selected_routes": 2,
+      "probability": 1.897994391726586e-05,
+      "qiskit_bitstring": "010001",
+      "selected_route_id": null,
+      "selected_route_label": null
+    }
+  ],
+  "vqe_best_probability_route_cost": 16.557900792370614,
+  "vqe_best_probability_route_id": "R01",
+  "vqe_best_probability_route_label": "A-B-C",
+  "vqe_best_route_probability": 0.9996155641383703,
+  "vqe_energy": 0.14516586357810368,
+  "vqe_energy_gap_to_exact": 0.0008919301400449609,
+  "vqe_energy_lower_than_initial": true,
+  "vqe_matches_exact_best_route": true,
+  "vqe_route_cost": 16.557900792370614
+}

@@ -1,0 +1,307 @@
+{
+  "initial_best_sample": {
+    "bitstring": "00000000100100",
+    "count": 1,
+    "feasible": false,
+    "makespan": 5,
+    "probability": 0.000244140625,
+    "qubo_energy": 30.0,
+    "selected_cmax": null,
+    "violations": [
+      "工序 J1-O0 选择了 0 个开始时间",
+      "工序 J1-O1 选择了 0 个开始时间",
+      "Cmax 选择了 0 个候选值"
+    ]
+  },
+  "initial_mean_qubo_energy": 49.51318359375,
+  "initial_point": [
+    0.10958241942238534,
+    -0.024448624099179084,
+    0.14343916796455297,
+    0.07894721162374557,
+    -0.1623290608449402,
+    0.19024894065470238,
+    0.10445588079614121,
+    0.11442572211078156,
+    -0.14875454692978166,
+    -0.019845624841773157,
+    -0.05168079030696751,
+    0.1707059955394407,
+    0.05754604803226582,
+    0.129104645308332,
+    -0.022634320469067548,
+    -0.10910451128608925,
+    0.021833914806333926,
+    -0.17447309755832988,
+    0.13105246879703286,
+    0.052665759648825916,
+    0.10323509603414954,
+    -0.05818961274805265,
+    0.1882792097579613,
+    0.1572484485288791,
+    0.11135339882950474,
+    -0.12214451685921297,
+    -0.01331159850918634,
+    -0.1824784936851085
+  ],
+  "num_unique_bitstrings": 17,
+  "sampler": "StatevectorSampler",
+  "seed": 42,
+  "shots": 4096,
+  "top_samples": [
+    {
+      "bitstring": "00000000000000",
+      "count": 3895,
+      "feasible": false,
+      "makespan": null,
+      "probability": 0.950927734375,
+      "qubo_energy": 50.0,
+      "selected_cmax": null,
+      "violations": [
+        "工序 J0-O0 选择了 0 个开始时间",
+        "工序 J0-O1 选择了 0 个开始时间",
+        "工序 J1-O0 选择了 0 个开始时间",
+        "工序 J1-O1 选择了 0 个开始时间",
+        "Cmax 选择了 0 个候选值"
+      ]
+    },
+    {
+      "bitstring": "00000000100000",
+      "count": 51,
+      "feasible": false,
+      "makespan": 5,
+      "probability": 0.012451171875,
+      "qubo_energy": 40.0,
+      "selected_cmax": null,
+      "violations": [
+        "工序 J0-O0 选择了 0 个开始时间",
+        "工序 J1-O0 选择了 0 个开始时间",
+        "工序 J1-O1 选择了 0 个开始时间",
+        "Cmax 选择了 0 个候选值"
+      ]
+    },
+    {
+      "bitstring": "00000001000000",
+      "count": 48,
+      "feasible": false,
+      "makespan": 1,
+      "probability": 0.01171875,
+      "qubo_energy": 40.0,
+      "selected_cmax": null,
+      "violations": [
+        "工序 J0-O0 选择了 0 个开始时间",
+        "工序 J0-O1 选择了 0 个开始时间",
+        "工序 J1-O1 选择了 0 个开始时间",
+        "Cmax 选择了 0 个候选值"
+      ]
+    },
+    {
+      "bitstring": "00000000000100",
+      "count": 28,
+      "feasible": false,
+      "makespan": 4,
+      "probability": 0.0068359375,
+      "qubo_energy": 40.0,
+      "selected_cmax": null,
+      "violations": [
+        "工序 J0-O1 选择了 0 个开始时间",
+        "工序 J1-O0 选择了 0 个开始时间",
+        "工序 J1-O1 选择了 0 个开始时间",
+        "Cmax 选择了 0 个候选值"
+      ]
+    },
+    {
+      "bitstring": "00001000000000",
+      "count": 19,
+      "feasible": false,
+      "makespan": 3,
+      "probability": 0.004638671875,
+      "qubo_energy": 40.0,
+      "selected_cmax": null,
+      "violations": [
+        "工序 J0-O0 选择了 0 个开始时间",
+        "工序 J0-O1 选择了 0 个开始时间",
+        "工序 J1-O0 选择了 0 个开始时间",
+        "Cmax 选择了 0 个候选值"
+      ]
+    },
+    {
+      "bitstring": "00000000000010",
+      "count": 13,
+      "feasible": false,
+      "makespan": 3,
+      "probability": 0.003173828125,
+      "qubo_energy": 40.0,
+      "selected_cmax": null,
+      "violations": [
+        "工序 J0-O1 选择了 0 个开始时间",
+        "工序 J1-O0 选择了 0 个开始时间",
+        "工序 J1-O1 选择了 0 个开始时间",
+        "Cmax 选择了 0 个候选值"
+      ]
+    },
+    {
+      "bitstring": "00000000000001",
+      "count": 9,
+      "feasible": false,
+      "makespan": 2,
+      "probability": 0.002197265625,
+      "qubo_energy": 40.0,
+      "selected_cmax": null,
+      "violations": [
+        "工序 J0-O1 选择了 0 个开始时间",
+        "工序 J1-O0 选择了 0 个开始时间",
+        "工序 J1-O1 选择了 0 个开始时间",
+        "Cmax 选择了 0 个候选值"
+      ]
+    },
+    {
+      "bitstring": "00000000001000",
+      "count": 8,
+      "feasible": false,
+      "makespan": 3,
+      "probability": 0.001953125,
+      "qubo_energy": 40.0,
+      "selected_cmax": null,
+      "violations": [
+        "工序 J0-O0 选择了 0 个开始时间",
+        "工序 J1-O0 选择了 0 个开始时间",
+        "工序 J1-O1 选择了 0 个开始时间",
+        "Cmax 选择了 0 个候选值"
+      ]
+    },
+    {
+      "bitstring": "00010000000000",
+      "count": 4,
+      "feasible": false,
+      "makespan": 4,
+      "probability": 0.0009765625,
+      "qubo_energy": 40.0,
+      "selected_cmax": null,
+      "violations": [
+        "工序 J0-O0 选择了 0 个开始时间",
+        "工序 J0-O1 选择了 0 个开始时间",
+        "工序 J1-O0 选择了 0 个开始时间",
+        "Cmax 选择了 0 个候选值"
+      ]
+    },
+    {
+      "bitstring": "01000000000000",
+      "count": 4,
+      "feasible": false,
+      "makespan": null,
+      "probability": 0.0009765625,
+      "qubo_energy": 44.0,
+      "selected_cmax": 4,
+      "violations": [
+        "工序 J0-O0 选择了 0 个开始时间",
+        "工序 J0-O1 选择了 0 个开始时间",
+        "工序 J1-O0 选择了 0 个开始时间",
+        "工序 J1-O1 选择了 0 个开始时间"
+      ]
+    },
+    {
+      "bitstring": "10000000000000",
+      "count": 4,
+      "feasible": false,
+      "makespan": null,
+      "probability": 0.0009765625,
+      "qubo_energy": 45.0,
+      "selected_cmax": 5,
+      "violations": [
+        "工序 J0-O0 选择了 0 个开始时间",
+        "工序 J0-O1 选择了 0 个开始时间",
+        "工序 J1-O0 选择了 0 个开始时间",
+        "工序 J1-O1 选择了 0 个开始时间"
+      ]
+    },
+    {
+      "bitstring": "00000000010000",
+      "count": 3,
+      "feasible": false,
+      "makespan": 4,
+      "probability": 0.000732421875,
+      "qubo_energy": 40.0,
+      "selected_cmax": null,
+      "violations": [
+        "工序 J0-O0 选择了 0 个开始时间",
+        "工序 J1-O0 选择了 0 个开始时间",
+        "工序 J1-O1 选择了 0 个开始时间",
+        "Cmax 选择了 0 个候选值"
+      ]
+    },
+    {
+      "bitstring": "00000010000000",
+      "count": 3,
+      "feasible": false,
+      "makespan": 2,
+      "probability": 0.000732421875,
+      "qubo_energy": 40.0,
+      "selected_cmax": null,
+      "violations": [
+        "工序 J0-O0 选择了 0 个开始时间",
+        "工序 J0-O1 选择了 0 个开始时间",
+        "工序 J1-O1 选择了 0 个开始时间",
+        "Cmax 选择了 0 个候选值"
+      ]
+    },
+    {
+      "bitstring": "00100000000000",
+      "count": 3,
+      "feasible": false,
+      "makespan": 5,
+      "probability": 0.000732421875,
+      "qubo_energy": 40.0,
+      "selected_cmax": null,
+      "violations": [
+        "工序 J0-O0 选择了 0 个开始时间",
+        "工序 J0-O1 选择了 0 个开始时间",
+        "工序 J1-O0 选择了 0 个开始时间",
+        "Cmax 选择了 0 个候选值"
+      ]
+    },
+    {
+      "bitstring": "00000100000000",
+      "count": 2,
+      "feasible": false,
+      "makespan": 3,
+      "probability": 0.00048828125,
+      "qubo_energy": 40.0,
+      "selected_cmax": null,
+      "violations": [
+        "工序 J0-O0 选择了 0 个开始时间",
+        "工序 J0-O1 选择了 0 个开始时间",
+        "工序 J1-O1 选择了 0 个开始时间",
+        "Cmax 选择了 0 个候选值"
+      ]
+    },
+    {
+      "bitstring": "00000000100100",
+      "count": 1,
+      "feasible": false,
+      "makespan": 5,
+      "probability": 0.000244140625,
+      "qubo_energy": 30.0,
+      "selected_cmax": null,
+      "violations": [
+        "工序 J1-O0 选择了 0 个开始时间",
+        "工序 J1-O1 选择了 0 个开始时间",
+        "Cmax 选择了 0 个候选值"
+      ]
+    },
+    {
+      "bitstring": "00000001000100",
+      "count": 1,
+      "feasible": false,
+      "makespan": 4,
+      "probability": 0.000244140625,
+      "qubo_energy": 30.0,
+      "selected_cmax": null,
+      "violations": [
+        "工序 J0-O1 选择了 0 个开始时间",
+        "工序 J1-O1 选择了 0 个开始时间",
+        "Cmax 选择了 0 个候选值"
+      ]
+    }
+  ]
+}

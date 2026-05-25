@@ -56,6 +56,8 @@ python main.py \
 
 默认设置下，H2 的精确参考总能量约为 `-1.137306 Hartree`，VQE 结果应非常接近该值。
 
+这里的“精确参考”是对当前 4-qubit Hamiltonian 做经典精确对角化。H2/STO-3G 很小，所以这一步适合作为教学校验；更大的分子不能依赖这种全空间精确对角化。
+
 ---
 
 ## 3. 目录结构
@@ -143,6 +145,12 @@ artifacts/environment.lock.yml
 - `energies_hartree.exact`：经典精确参考总能量。
 - `errors_hartree.vqe_abs_error`：VQE 与精确值的绝对误差。
 - `vqe_within_chemical_accuracy`：误差是否小于 `0.0016 Hartree`。
+
+建议复核这些关系：
+
+- `energies_hartree.hartree_fock` 应等于 `energies_hartree.initial_ansatz`，因为初始参数全 0 时就是 Hartree-Fock 初态。
+- `errors_hartree.vqe_abs_error` 应小于 `1e-3 Hartree`，默认运行通常会远小于 chemical accuracy。
+- `artifacts/ansatz/ansatz.json` 中应显示 `num_qubits=4`、`num_parameters=3`。UCCSD 在 Qiskit 中先保存为高层模板，原始模板深度可能很小；若展开到基础门，当前默认结果约为深度 112、包含 56 个 `cx`。
 
 ---
 

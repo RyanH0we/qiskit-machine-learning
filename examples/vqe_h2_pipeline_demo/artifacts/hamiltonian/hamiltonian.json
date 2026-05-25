@@ -37,20 +37,12 @@
   "num_spin_orbitals": 4,
   "pauli_terms": [
     {
-      "abs_coefficient": 0.8105479805373275,
+      "abs_coefficient": 0.8105479805373276,
       "coefficient": {
         "imag": 0.0,
-        "real": -0.8105479805373275
+        "real": -0.8105479805373276
       },
       "pauli": "IIII"
-    },
-    {
-      "abs_coefficient": 0.22575349222402386,
-      "coefficient": {
-        "imag": 0.0,
-        "real": -0.22575349222402386
-      },
-      "pauli": "ZIII"
     },
     {
       "abs_coefficient": 0.22575349222402383,
@@ -59,6 +51,14 @@
         "real": -0.22575349222402383
       },
       "pauli": "IIZI"
+    },
+    {
+      "abs_coefficient": 0.22575349222402383,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -0.22575349222402383
+      },
+      "pauli": "ZIII"
     },
     {
       "abs_coefficient": 0.17464343068300442,

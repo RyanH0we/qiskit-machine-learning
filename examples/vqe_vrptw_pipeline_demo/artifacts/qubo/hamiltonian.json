@@ -1,0 +1,183 @@
+{
+  "description": "Ising Hamiltonian equivalent to the route-selection QUBO",
+  "num_pauli_terms": 22,
+  "num_qubits": 6,
+  "pauli_terms": [
+    {
+      "abs_coefficient": 12.640990491353488,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 12.640990491353488
+      },
+      "pauli": "IIIIII"
+    },
+    {
+      "abs_coefficient": 4.5,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -4.5
+      },
+      "pauli": "IZIIII"
+    },
+    {
+      "abs_coefficient": 4.3972813222338205,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -4.3972813222338205
+      },
+      "pauli": "ZIIIII"
+    },
+    {
+      "abs_coefficient": 4.308667334189151,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -4.308667334189151
+      },
+      "pauli": "IIZIII"
+    },
+    {
+      "abs_coefficient": 4.205880957316961,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -4.205880957316961
+      },
+      "pauli": "IIIZII"
+    },
+    {
+      "abs_coefficient": 4.157023910894526,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -4.157023910894526
+      },
+      "pauli": "IIIIZI"
+    },
+    {
+      "abs_coefficient": 4.072136966719029,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -4.072136966719029
+      },
+      "pauli": "IIIIIZ"
+    },
+    {
+      "abs_coefficient": 1.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 1.0
+      },
+      "pauli": "IIIIZZ"
+    },
+    {
+      "abs_coefficient": 1.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 1.0
+      },
+      "pauli": "IIIZIZ"
+    },
+    {
+      "abs_coefficient": 1.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 1.0
+      },
+      "pauli": "IIIZZI"
+    },
+    {
+      "abs_coefficient": 1.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 1.0
+      },
+      "pauli": "IIZIIZ"
+    },
+    {
+      "abs_coefficient": 1.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 1.0
+      },
+      "pauli": "IIZIZI"
+    },
+    {
+      "abs_coefficient": 1.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 1.0
+      },
+      "pauli": "IIZZII"
+    },
+    {
+      "abs_coefficient": 1.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 1.0
+      },
+      "pauli": "IZIIIZ"
+    },
+    {
+      "abs_coefficient": 1.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 1.0
+      },
+      "pauli": "IZIIZI"
+    },
+    {
+      "abs_coefficient": 1.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 1.0
+      },
+      "pauli": "IZIZII"
+    },
+    {
+      "abs_coefficient": 1.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 1.0
+      },
+      "pauli": "IZZIII"
+    },
+    {
+      "abs_coefficient": 1.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 1.0
+      },
+      "pauli": "ZIIIIZ"
+    },
+    {
+      "abs_coefficient": 1.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 1.0
+      },
+      "pauli": "ZIIIZI"
+    },
+    {
+      "abs_coefficient": 1.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 1.0
+      },
+      "pauli": "ZIIZII"
+    },
+    {
+      "abs_coefficient": 1.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 1.0
+      },
+      "pauli": "ZIZIII"
+    },
+    {
+      "abs_coefficient": 1.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 1.0
+      },
+      "pauli": "ZZIIII"
+    }
+  ]
+}

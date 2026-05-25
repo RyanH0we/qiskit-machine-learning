@@ -1,0 +1,481 @@
+{
+  "late_weight": 8.0,
+  "routes": [
+    {
+      "completion_time": 17.757900792370613,
+      "cost": 16.557900792370614,
+      "distance": 16.557900792370614,
+      "events": [
+        {
+          "arrival_time": 3.1622776601683795,
+          "customer_id": "A",
+          "departure_time": 3.5622776601683794,
+          "late_time": 0.0,
+          "service_start_time": 3.1622776601683795,
+          "time_window": [
+            2.5,
+            6.5
+          ],
+          "waiting_time": 0.0
+        },
+        {
+          "arrival_time": 6.7245553203367585,
+          "customer_id": "B",
+          "departure_time": 7.124555320336759,
+          "late_time": 0.0,
+          "service_start_time": 6.7245553203367585,
+          "time_window": [
+            5.0,
+            9.0
+          ],
+          "waiting_time": 0.0
+        },
+        {
+          "arrival_time": 10.286832980505139,
+          "customer_id": "C",
+          "departure_time": 10.68683298050514,
+          "late_time": 0.0,
+          "service_start_time": 10.286832980505139,
+          "time_window": [
+            7.0,
+            12.0
+          ],
+          "waiting_time": 0.0
+        }
+      ],
+      "is_time_window_feasible": true,
+      "label": "A-B-C",
+      "legs": [
+        {
+          "arrival_time": 3.1622776601683795,
+          "from": "D",
+          "to": "A",
+          "travel_time": 3.1622776601683795
+        },
+        {
+          "arrival_time": 6.7245553203367585,
+          "from": "A",
+          "to": "B",
+          "travel_time": 3.1622776601683795
+        },
+        {
+          "arrival_time": 10.286832980505139,
+          "from": "B",
+          "to": "C",
+          "travel_time": 3.1622776601683795
+        },
+        {
+          "arrival_time": 17.757900792370613,
+          "from": "C",
+          "to": "D",
+          "travel_time": 7.0710678118654755
+        }
+      ],
+      "order": [
+        "A",
+        "B",
+        "C"
+      ],
+      "route_id": "R01",
+      "total_late_time": 0.0,
+      "total_waiting_time": 0.0
+    },
+    {
+      "completion_time": 16.46882723033592,
+      "cost": 36.04235743302664,
+      "distance": 15.26882723033592,
+      "events": [
+        {
+          "arrival_time": 3.1622776601683795,
+          "customer_id": "A",
+          "departure_time": 3.5622776601683794,
+          "late_time": 0.0,
+          "service_start_time": 3.1622776601683795,
+          "time_window": [
+            2.5,
+            6.5
+          ],
+          "waiting_time": 0.0
+        },
+        {
+          "arrival_time": 8.03441361516796,
+          "customer_id": "C",
+          "departure_time": 8.43441361516796,
+          "late_time": 0.0,
+          "service_start_time": 8.03441361516796,
+          "time_window": [
+            7.0,
+            12.0
+          ],
+          "waiting_time": 0.0
+        },
+        {
+          "arrival_time": 11.59669127533634,
+          "customer_id": "B",
+          "departure_time": 11.99669127533634,
+          "late_time": 2.5966912753363403,
+          "service_start_time": 11.59669127533634,
+          "time_window": [
+            5.0,
+            9.0
+          ],
+          "waiting_time": 0.0
+        }
+      ],
+      "is_time_window_feasible": false,
+      "label": "A-C-B",
+      "legs": [
+        {
+          "arrival_time": 3.1622776601683795,
+          "from": "D",
+          "to": "A",
+          "travel_time": 3.1622776601683795
+        },
+        {
+          "arrival_time": 8.03441361516796,
+          "from": "A",
+          "to": "C",
+          "travel_time": 4.47213595499958
+        },
+        {
+          "arrival_time": 11.59669127533634,
+          "from": "C",
+          "to": "B",
+          "travel_time": 3.1622776601683795
+        },
+        {
+          "arrival_time": 16.46882723033592,
+          "from": "B",
+          "to": "D",
+          "travel_time": 4.47213595499958
+        }
+      ],
+      "order": [
+        "A",
+        "C",
+        "B"
+      ],
+      "route_id": "R02",
+      "total_late_time": 2.5966912753363403,
+      "total_waiting_time": 0.0
+    },
+    {
+      "completion_time": 20.905481427033436,
+      "cost": 47.256720393723825,
+      "distance": 19.177617382033013,
+      "events": [
+        {
+          "arrival_time": 4.47213595499958,
+          "customer_id": "B",
+          "departure_time": 5.4,
+          "late_time": 0.0,
+          "service_start_time": 5.0,
+          "time_window": [
+            5.0,
+            9.0
+          ],
+          "waiting_time": 0.5278640450004204
+        },
+        {
+          "arrival_time": 8.56227766016838,
+          "customer_id": "A",
+          "departure_time": 8.96227766016838,
+          "late_time": 2.0622776601683803,
+          "service_start_time": 8.56227766016838,
+          "time_window": [
+            2.5,
+            6.5
+          ],
+          "waiting_time": 0.0
+        },
+        {
+          "arrival_time": 13.43441361516796,
+          "customer_id": "C",
+          "departure_time": 13.83441361516796,
+          "late_time": 1.4344136151679603,
+          "service_start_time": 13.43441361516796,
+          "time_window": [
+            7.0,
+            12.0
+          ],
+          "waiting_time": 0.0
+        }
+      ],
+      "is_time_window_feasible": false,
+      "label": "B-A-C",
+      "legs": [
+        {
+          "arrival_time": 4.47213595499958,
+          "from": "D",
+          "to": "B",
+          "travel_time": 4.47213595499958
+        },
+        {
+          "arrival_time": 8.56227766016838,
+          "from": "B",
+          "to": "A",
+          "travel_time": 3.1622776601683795
+        },
+        {
+          "arrival_time": 13.43441361516796,
+          "from": "A",
+          "to": "C",
+          "travel_time": 4.47213595499958
+        },
+        {
+          "arrival_time": 20.905481427033436,
+          "from": "C",
+          "to": "D",
+          "travel_time": 7.0710678118654755
+        }
+      ],
+      "order": [
+        "B",
+        "A",
+        "C"
+      ],
+      "route_id": "R03",
+      "total_late_time": 3.4966912753363406,
+      "total_waiting_time": 0.5278640450004204
+    },
+    {
+      "completion_time": 16.99669127533634,
+      "cost": 70.84970896067969,
+      "distance": 15.26882723033592,
+      "events": [
+        {
+          "arrival_time": 4.47213595499958,
+          "customer_id": "B",
+          "departure_time": 5.4,
+          "late_time": 0.0,
+          "service_start_time": 5.0,
+          "time_window": [
+            5.0,
+            9.0
+          ],
+          "waiting_time": 0.5278640450004204
+        },
+        {
+          "arrival_time": 8.56227766016838,
+          "customer_id": "C",
+          "departure_time": 8.96227766016838,
+          "late_time": 0.0,
+          "service_start_time": 8.56227766016838,
+          "time_window": [
+            7.0,
+            12.0
+          ],
+          "waiting_time": 0.0
+        },
+        {
+          "arrival_time": 13.43441361516796,
+          "customer_id": "A",
+          "departure_time": 13.83441361516796,
+          "late_time": 6.93441361516796,
+          "service_start_time": 13.43441361516796,
+          "time_window": [
+            2.5,
+            6.5
+          ],
+          "waiting_time": 0.0
+        }
+      ],
+      "is_time_window_feasible": false,
+      "label": "B-C-A",
+      "legs": [
+        {
+          "arrival_time": 4.47213595499958,
+          "from": "D",
+          "to": "B",
+          "travel_time": 4.47213595499958
+        },
+        {
+          "arrival_time": 8.56227766016838,
+          "from": "B",
+          "to": "C",
+          "travel_time": 3.1622776601683795
+        },
+        {
+          "arrival_time": 13.43441361516796,
+          "from": "C",
+          "to": "A",
+          "travel_time": 4.47213595499958
+        },
+        {
+          "arrival_time": 16.99669127533634,
+          "from": "A",
+          "to": "D",
+          "travel_time": 3.1622776601683795
+        }
+      ],
+      "order": [
+        "B",
+        "C",
+        "A"
+      ],
+      "route_id": "R04",
+      "total_late_time": 6.93441361516796,
+      "total_waiting_time": 0.5278640450004204
+    },
+    {
+      "completion_time": 20.377617382033016,
+      "cost": 114.76709893322095,
+      "distance": 19.177617382033013,
+      "events": [
+        {
+          "arrival_time": 7.0710678118654755,
+          "customer_id": "C",
+          "departure_time": 7.471067811865476,
+          "late_time": 0.0,
+          "service_start_time": 7.0710678118654755,
+          "time_window": [
+            7.0,
+            12.0
+          ],
+          "waiting_time": 0.0
+        },
+        {
+          "arrival_time": 11.943203766865055,
+          "customer_id": "A",
+          "departure_time": 12.343203766865056,
+          "late_time": 5.4432037668650555,
+          "service_start_time": 11.943203766865055,
+          "time_window": [
+            2.5,
+            6.5
+          ],
+          "waiting_time": 0.0
+        },
+        {
+          "arrival_time": 15.505481427033436,
+          "customer_id": "B",
+          "departure_time": 15.905481427033436,
+          "late_time": 6.505481427033436,
+          "service_start_time": 15.505481427033436,
+          "time_window": [
+            5.0,
+            9.0
+          ],
+          "waiting_time": 0.0
+        }
+      ],
+      "is_time_window_feasible": false,
+      "label": "C-A-B",
+      "legs": [
+        {
+          "arrival_time": 7.0710678118654755,
+          "from": "D",
+          "to": "C",
+          "travel_time": 7.0710678118654755
+        },
+        {
+          "arrival_time": 11.943203766865055,
+          "from": "C",
+          "to": "A",
+          "travel_time": 4.47213595499958
+        },
+        {
+          "arrival_time": 15.505481427033436,
+          "from": "A",
+          "to": "B",
+          "travel_time": 3.1622776601683795
+        },
+        {
+          "arrival_time": 20.377617382033016,
+          "from": "B",
+          "to": "D",
+          "travel_time": 4.47213595499958
+        }
+      ],
+      "order": [
+        "C",
+        "A",
+        "B"
+      ],
+      "route_id": "R05",
+      "total_late_time": 11.948685193898491,
+      "total_waiting_time": 0.0
+    },
+    {
+      "completion_time": 17.757900792370616,
+      "cost": 91.18964962625935,
+      "distance": 16.557900792370614,
+      "events": [
+        {
+          "arrival_time": 7.0710678118654755,
+          "customer_id": "C",
+          "departure_time": 7.471067811865476,
+          "late_time": 0.0,
+          "service_start_time": 7.0710678118654755,
+          "time_window": [
+            7.0,
+            12.0
+          ],
+          "waiting_time": 0.0
+        },
+        {
+          "arrival_time": 10.633345472033856,
+          "customer_id": "B",
+          "departure_time": 11.033345472033856,
+          "late_time": 1.6333454720338558,
+          "service_start_time": 10.633345472033856,
+          "time_window": [
+            5.0,
+            9.0
+          ],
+          "waiting_time": 0.0
+        },
+        {
+          "arrival_time": 14.195623132202236,
+          "customer_id": "A",
+          "departure_time": 14.595623132202237,
+          "late_time": 7.695623132202236,
+          "service_start_time": 14.195623132202236,
+          "time_window": [
+            2.5,
+            6.5
+          ],
+          "waiting_time": 0.0
+        }
+      ],
+      "is_time_window_feasible": false,
+      "label": "C-B-A",
+      "legs": [
+        {
+          "arrival_time": 7.0710678118654755,
+          "from": "D",
+          "to": "C",
+          "travel_time": 7.0710678118654755
+        },
+        {
+          "arrival_time": 10.633345472033856,
+          "from": "C",
+          "to": "B",
+          "travel_time": 3.1622776601683795
+        },
+        {
+          "arrival_time": 14.195623132202236,
+          "from": "B",
+          "to": "A",
+          "travel_time": 3.1622776601683795
+        },
+        {
+          "arrival_time": 17.757900792370616,
+          "from": "A",
+          "to": "D",
+          "travel_time": 3.1622776601683795
+        }
+      ],
+      "order": [
+        "C",
+        "B",
+        "A"
+      ],
+      "route_id": "R06",
+      "total_late_time": 9.328968604236092,
+      "total_waiting_time": 0.0
+    }
+  ],
+  "source_instance": "/home/ryan/guojiqe-qcdemo/qiskit-machine-learning/examples/vqe_vrptw_pipeline_demo/artifacts/instance/instance.json",
+  "wait_weight": 0.2
+}

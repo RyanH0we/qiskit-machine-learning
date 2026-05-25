@@ -1,0 +1,247 @@
+{
+  "algorithm": "sampler-based VQE",
+  "best_measurement": {
+    "bitstring": "11000101001001010001",
+    "probability": 0.979736328125,
+    "state": null,
+    "value": 2.8284271247461987
+  },
+  "classical_best_feasible_qubo_energy": 2.8284271247461987,
+  "cost_function_evals": 120.0,
+  "eigenstate": {
+    "01000101001001010001": 0.007568359375,
+    "01000101001001010011": 0.000244140625,
+    "11000101001001000001": 0.00048828125,
+    "11000101001001010001": 0.979736328125,
+    "11000101001001010011": 0.002197265625,
+    "11000101001001011001": 0.000732421875,
+    "11000101001001110001": 0.003662109375,
+    "11000101001101010001": 0.00048828125,
+    "11000101011001010001": 0.002197265625,
+    "11000101101001010001": 0.001708984375,
+    "11000111001001010001": 0.000732421875,
+    "11001101001001010001": 0.000244140625
+  },
+  "energy_gap_to_classical_feasible": 0.4415880473560847,
+  "maxiter": 120,
+  "num_evaluations_recorded": 120,
+  "num_parameters": 40,
+  "objective_evaluator": "exact product-state QUBO expectation for diagonal Hamiltonian",
+  "optimal_point": [
+    1.9877819128145582,
+    -0.06571422024539343,
+    -0.029109245375081996,
+    -0.0558094917047475,
+    2.012893486297651,
+    -0.13878711499146826,
+    2.011863529547196,
+    -0.09399646898939207,
+    -0.022875721421628272,
+    2.0144992513828406,
+    -0.007451226732134509,
+    0.08264959388706003,
+    2.1633171318037108,
+    0.03847676254803782,
+    2.111330920226905,
+    0.0665313157251805,
+    0.10708576927456984,
+    0.013736834494860836,
+    2.1236116657200754,
+    2.2400355287950435,
+    1.158422131947279,
+    -0.006359360206237264,
+    0.03697544092734792,
+    -0.004051270183898005,
+    1.0527657642099932,
+    0.02233277058996266,
+    1.1300978364403609,
+    0.11865816835417738,
+    0.0646140479852998,
+    1.1641002937131841,
+    -0.08132160094032805,
+    -0.161885835121432,
+    0.9992914772968085,
+    -0.012472046927939295,
+    1.001228459734096,
+    -0.10133088104075871,
+    -0.09939548142852511,
+    -0.04185186557644286,
+    1.036794810657066,
+    1.0759169686404169
+  ],
+  "optimizer": "COBYLA",
+  "optimizer_time_seconds": 0.07156757591292262,
+  "raw_optimal_value": 3.2700151721022834,
+  "sampler": "StatevectorSampler",
+  "seed": 42,
+  "shots": 4096,
+  "top_samples": [
+    {
+      "bitstring": "11000101001001010001",
+      "feasible": true,
+      "num_customers_served": 4,
+      "num_vehicles_used": 2,
+      "probability": 0.979736328125,
+      "qubo_energy": 2.8284271247461987,
+      "total_distance": 8.0,
+      "violations": []
+    },
+    {
+      "bitstring": "01000101001001010001",
+      "feasible": false,
+      "num_customers_served": 4,
+      "num_vehicles_used": 2,
+      "probability": 0.007568359375,
+      "qubo_energy": 13.181980515339472,
+      "total_distance": 8.0,
+      "violations": [
+        "车辆 V1 的位置 1 选择了 1 个客户，但 y=0"
+      ]
+    },
+    {
+      "bitstring": "11000101001001110001",
+      "feasible": false,
+      "num_customers_served": 3,
+      "num_vehicles_used": 2,
+      "probability": 0.003662109375,
+      "qubo_energy": 33.18198051533946,
+      "total_distance": 6.0,
+      "violations": [
+        "客户 A 被服务 2 次",
+        "车辆 V0 的位置 1 选择了 2 个客户，但 y=1",
+        "车辆 V0 的位置 1 同时选择了多个客户",
+        "车辆 V0 到客户 A 的到达时间 2.0 晚于服务开始 1.0"
+      ]
+    },
+    {
+      "bitstring": "11000101001001010011",
+      "feasible": false,
+      "num_customers_served": 4,
+      "num_vehicles_used": 2,
+      "probability": 0.002197265625,
+      "qubo_energy": 33.53553390593274,
+      "total_distance": 8.0,
+      "violations": [
+        "客户 B 被服务 2 次",
+        "车辆 V0 的位置 0 选择了 2 个客户，但 y=1",
+        "车辆 V0 的位置 0 同时选择了多个客户"
+      ]
+    },
+    {
+      "bitstring": "11000101011001010001",
+      "feasible": false,
+      "num_customers_served": 3,
+      "num_vehicles_used": 2,
+      "probability": 0.002197265625,
+      "qubo_energy": 33.972549930381575,
+      "total_distance": 9.23606797749979,
+      "violations": [
+        "客户 A 被服务 2 次",
+        "车辆 V1 的位置 0 选择了 2 个客户，但 y=1",
+        "车辆 V1 的位置 0 同时选择了多个客户",
+        "车辆 V1 到客户 D 的到达时间 5.0 晚于服务开始 3.0"
+      ]
+    },
+    {
+      "bitstring": "11000101101001010001",
+      "feasible": false,
+      "num_customers_served": 3,
+      "num_vehicles_used": 2,
+      "probability": 0.001708984375,
+      "qubo_energy": 34.53553390593274,
+      "total_distance": 10.82842712474619,
+      "violations": [
+        "客户 B 被服务 2 次",
+        "车辆 V1 的位置 0 选择了 2 个客户，但 y=1",
+        "车辆 V1 的位置 0 同时选择了多个客户",
+        "车辆 V1 到客户 D 的到达时间 7.0 晚于服务开始 3.0"
+      ]
+    },
+    {
+      "bitstring": "11000111001001010001",
+      "feasible": false,
+      "num_customers_served": 4,
+      "num_vehicles_used": 2,
+      "probability": 0.000732421875,
+      "qubo_energy": 33.535533905932745,
+      "total_distance": 8.0,
+      "violations": [
+        "客户 D 被服务 2 次",
+        "车辆 V1 的位置 0 选择了 2 个客户，但 y=1",
+        "车辆 V1 的位置 0 同时选择了多个客户"
+      ]
+    },
+    {
+      "bitstring": "11000101001001011001",
+      "feasible": false,
+      "num_customers_served": 4,
+      "num_vehicles_used": 2,
+      "probability": 0.000732421875,
+      "qubo_energy": 34.53553390593274,
+      "total_distance": 8.0,
+      "violations": [
+        "客户 D 被服务 2 次",
+        "车辆 V0 的位置 0 选择了 2 个客户，但 y=1",
+        "车辆 V0 的位置 0 同时选择了多个客户"
+      ]
+    },
+    {
+      "bitstring": "11000101001001000001",
+      "feasible": false,
+      "num_customers_served": 4,
+      "num_vehicles_used": 2,
+      "probability": 0.00048828125,
+      "qubo_energy": 22.828427124746185,
+      "total_distance": 8.0,
+      "violations": [
+        "车辆 V0 的位置 0 选择了 1 个客户，但 y=0",
+        "车辆 V0 的位置 1 有访问，但前一位置为空"
+      ]
+    },
+    {
+      "bitstring": "11000101001101010001",
+      "feasible": false,
+      "num_customers_served": 4,
+      "num_vehicles_used": 2,
+      "probability": 0.00048828125,
+      "qubo_energy": 34.32610332097484,
+      "total_distance": 8.0,
+      "violations": [
+        "客户 D 被服务 2 次",
+        "车辆 V0 的位置 1 选择了 2 个客户，但 y=1",
+        "车辆 V0 的位置 1 同时选择了多个客户"
+      ]
+    },
+    {
+      "bitstring": "11001101001001010001",
+      "feasible": false,
+      "num_customers_served": 3,
+      "num_vehicles_used": 2,
+      "probability": 0.000244140625,
+      "qubo_energy": 33.681980515339475,
+      "total_distance": 7.414213562373095,
+      "violations": [
+        "客户 A 被服务 2 次",
+        "车辆 V1 的位置 1 选择了 2 个客户，但 y=1",
+        "车辆 V1 的位置 1 同时选择了多个客户",
+        "车辆 V1 到客户 A 的到达时间 4.0 晚于服务开始 1.0"
+      ]
+    },
+    {
+      "bitstring": "01000101001001010011",
+      "feasible": false,
+      "num_customers_served": 4,
+      "num_vehicles_used": 2,
+      "probability": 0.000244140625,
+      "qubo_energy": 43.889087296526014,
+      "total_distance": 8.0,
+      "violations": [
+        "客户 B 被服务 2 次",
+        "车辆 V0 的位置 0 选择了 2 个客户，但 y=1",
+        "车辆 V0 的位置 0 同时选择了多个客户",
+        "车辆 V1 的位置 1 选择了 1 个客户，但 y=0"
+      ]
+    }
+  ],
+  "vqe_mean_qubo_energy": 3.2700151721022834
+}

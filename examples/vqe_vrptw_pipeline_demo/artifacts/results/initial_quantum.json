@@ -1,0 +1,1470 @@
+{
+  "estimator": "StatevectorEstimator",
+  "estimator_std": 0.0,
+  "initial_energy": 12.640990491353483,
+  "initial_point": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "probability_summary": {
+    "all_states": [
+      {
+        "bits": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "bitstring": "000000",
+        "energy": 2.0,
+        "is_one_hot": false,
+        "num_selected_routes": 0,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "000000",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "bitstring": "100000",
+        "energy": 0.14427393343805872,
+        "is_one_hot": true,
+        "num_selected_routes": 1,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "000001",
+        "selected_route_id": "R01",
+        "selected_route_label": "A-B-C"
+      },
+      {
+        "bits": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "bitstring": "010000",
+        "energy": 0.31404782178905166,
+        "is_one_hot": true,
+        "num_selected_routes": 1,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "000010",
+        "selected_route_id": "R02",
+        "selected_route_label": "A-C-B"
+      },
+      {
+        "bits": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "bitstring": "110000",
+        "energy": 2.4583217552271104,
+        "is_one_hot": false,
+        "num_selected_routes": 2,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "000011",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "bitstring": "001000",
+        "energy": 0.4117619146339222,
+        "is_one_hot": true,
+        "num_selected_routes": 1,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "000100",
+        "selected_route_id": "R03",
+        "selected_route_label": "B-A-C"
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "bitstring": "101000",
+        "energy": 2.556035848071981,
+        "is_one_hot": false,
+        "num_selected_routes": 2,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "000101",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "bitstring": "011000",
+        "energy": 2.725809736422974,
+        "is_one_hot": false,
+        "num_selected_routes": 2,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "000110",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "bitstring": "111000",
+        "energy": 8.870083669861032,
+        "is_one_hot": false,
+        "num_selected_routes": 3,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "000111",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "bitstring": "000100",
+        "energy": 0.6173346683783016,
+        "is_one_hot": true,
+        "num_selected_routes": 1,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "001000",
+        "selected_route_id": "R04",
+        "selected_route_label": "B-C-A"
+      },
+      {
+        "bits": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "bitstring": "100100",
+        "energy": 2.76160860181636,
+        "is_one_hot": false,
+        "num_selected_routes": 2,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "001001",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "bitstring": "010100",
+        "energy": 2.931382490167353,
+        "is_one_hot": false,
+        "num_selected_routes": 2,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "001010",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          1,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "bitstring": "110100",
+        "energy": 9.075656423605412,
+        "is_one_hot": false,
+        "num_selected_routes": 3,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "001011",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "bitstring": "001100",
+        "energy": 3.029096583012224,
+        "is_one_hot": false,
+        "num_selected_routes": 2,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "001100",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "bitstring": "101100",
+        "energy": 9.173370516450284,
+        "is_one_hot": false,
+        "num_selected_routes": 3,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "001101",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        "bitstring": "011100",
+        "energy": 9.343144404801276,
+        "is_one_hot": false,
+        "num_selected_routes": 3,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "001110",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        "bitstring": "111100",
+        "energy": 19.487418338239333,
+        "is_one_hot": false,
+        "num_selected_routes": 4,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "001111",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "bitstring": "000010",
+        "energy": 1.0,
+        "is_one_hot": true,
+        "num_selected_routes": 1,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "010000",
+        "selected_route_id": "R05",
+        "selected_route_label": "C-A-B"
+      },
+      {
+        "bits": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "bitstring": "100010",
+        "energy": 3.1442739334380585,
+        "is_one_hot": false,
+        "num_selected_routes": 2,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "010001",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          0,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "bitstring": "010010",
+        "energy": 3.3140478217890514,
+        "is_one_hot": false,
+        "num_selected_routes": 2,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "010010",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "bitstring": "110010",
+        "energy": 9.45832175522711,
+        "is_one_hot": false,
+        "num_selected_routes": 3,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "010011",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "bitstring": "001010",
+        "energy": 3.411761914633922,
+        "is_one_hot": false,
+        "num_selected_routes": 2,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "010100",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "bitstring": "101010",
+        "energy": 9.556035848071982,
+        "is_one_hot": false,
+        "num_selected_routes": 3,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "010101",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ],
+        "bitstring": "011010",
+        "energy": 9.725809736422974,
+        "is_one_hot": false,
+        "num_selected_routes": 3,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "010110",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          0
+        ],
+        "bitstring": "111010",
+        "energy": 19.87008366986103,
+        "is_one_hot": false,
+        "num_selected_routes": 4,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "010111",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "bitstring": "000110",
+        "energy": 3.6173346683783016,
+        "is_one_hot": false,
+        "num_selected_routes": 2,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "011000",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "bitstring": "100110",
+        "energy": 9.76160860181636,
+        "is_one_hot": false,
+        "num_selected_routes": 3,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "011001",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        "bitstring": "010110",
+        "energy": 9.931382490167353,
+        "is_one_hot": false,
+        "num_selected_routes": 3,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "011010",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        "bitstring": "110110",
+        "energy": 20.075656423605412,
+        "is_one_hot": false,
+        "num_selected_routes": 4,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "011011",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "bitstring": "001110",
+        "energy": 10.029096583012224,
+        "is_one_hot": false,
+        "num_selected_routes": 3,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "011100",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "bitstring": "101110",
+        "energy": 20.173370516450284,
+        "is_one_hot": false,
+        "num_selected_routes": 4,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "011101",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1,
+          1,
+          1,
+          0
+        ],
+        "bitstring": "011110",
+        "energy": 20.343144404801276,
+        "is_one_hot": false,
+        "num_selected_routes": 4,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "011110",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          0
+        ],
+        "bitstring": "111110",
+        "energy": 34.48741833823934,
+        "is_one_hot": false,
+        "num_selected_routes": 5,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "011111",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "bitstring": "000001",
+        "energy": 0.7945626444676406,
+        "is_one_hot": true,
+        "num_selected_routes": 1,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "100000",
+        "selected_route_id": "R06",
+        "selected_route_label": "C-B-A"
+      },
+      {
+        "bits": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "bitstring": "100001",
+        "energy": 2.9388365779056995,
+        "is_one_hot": false,
+        "num_selected_routes": 2,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "100001",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "bitstring": "010001",
+        "energy": 3.1086104662566925,
+        "is_one_hot": false,
+        "num_selected_routes": 2,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "100010",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "bitstring": "110001",
+        "energy": 9.25288439969475,
+        "is_one_hot": false,
+        "num_selected_routes": 3,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "100011",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        "bitstring": "001001",
+        "energy": 3.2063245591015628,
+        "is_one_hot": false,
+        "num_selected_routes": 2,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "100100",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        "bitstring": "101001",
+        "energy": 9.350598492539621,
+        "is_one_hot": false,
+        "num_selected_routes": 3,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "100101",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        "bitstring": "011001",
+        "energy": 9.520372380890613,
+        "is_one_hot": false,
+        "num_selected_routes": 3,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "100110",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        "bitstring": "111001",
+        "energy": 19.66464631432867,
+        "is_one_hot": false,
+        "num_selected_routes": 4,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "100111",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "bitstring": "000101",
+        "energy": 3.411897312845942,
+        "is_one_hot": false,
+        "num_selected_routes": 2,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "101000",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "bitstring": "100101",
+        "energy": 9.556171246284002,
+        "is_one_hot": false,
+        "num_selected_routes": 3,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "101001",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "bitstring": "010101",
+        "energy": 9.725945134634994,
+        "is_one_hot": false,
+        "num_selected_routes": 3,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "101010",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "bitstring": "110101",
+        "energy": 19.87021906807305,
+        "is_one_hot": false,
+        "num_selected_routes": 4,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "101011",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1
+        ],
+        "bitstring": "001101",
+        "energy": 9.823659227479865,
+        "is_one_hot": false,
+        "num_selected_routes": 3,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "101100",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1,
+          1,
+          0,
+          1
+        ],
+        "bitstring": "101101",
+        "energy": 19.967933160917923,
+        "is_one_hot": false,
+        "num_selected_routes": 4,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "101101",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1,
+          1,
+          0,
+          1
+        ],
+        "bitstring": "011101",
+        "energy": 20.13770704926892,
+        "is_one_hot": false,
+        "num_selected_routes": 4,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "101110",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1,
+          1,
+          0,
+          1
+        ],
+        "bitstring": "111101",
+        "energy": 34.281980982706976,
+        "is_one_hot": false,
+        "num_selected_routes": 5,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "101111",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "bitstring": "000011",
+        "energy": 3.7945626444676406,
+        "is_one_hot": false,
+        "num_selected_routes": 2,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "110000",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "bitstring": "100011",
+        "energy": 9.9388365779057,
+        "is_one_hot": false,
+        "num_selected_routes": 3,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "110001",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          0,
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        "bitstring": "010011",
+        "energy": 10.108610466256692,
+        "is_one_hot": false,
+        "num_selected_routes": 3,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "110010",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          1,
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        "bitstring": "110011",
+        "energy": 20.25288439969475,
+        "is_one_hot": false,
+        "num_selected_routes": 4,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "110011",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        "bitstring": "001011",
+        "energy": 10.206324559101564,
+        "is_one_hot": false,
+        "num_selected_routes": 3,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "110100",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        "bitstring": "101011",
+        "energy": 20.35059849253962,
+        "is_one_hot": false,
+        "num_selected_routes": 4,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "110101",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1,
+          0,
+          1,
+          1
+        ],
+        "bitstring": "011011",
+        "energy": 20.520372380890613,
+        "is_one_hot": false,
+        "num_selected_routes": 4,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "110110",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          1
+        ],
+        "bitstring": "111011",
+        "energy": 34.66464631432867,
+        "is_one_hot": false,
+        "num_selected_routes": 5,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "110111",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        "bitstring": "000111",
+        "energy": 10.411897312845943,
+        "is_one_hot": false,
+        "num_selected_routes": 3,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "111000",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        "bitstring": "100111",
+        "energy": 20.556171246284002,
+        "is_one_hot": false,
+        "num_selected_routes": 4,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "111001",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "bitstring": "010111",
+        "energy": 20.725945134634994,
+        "is_one_hot": false,
+        "num_selected_routes": 4,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "111010",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "bitstring": "110111",
+        "energy": 34.870219068073055,
+        "is_one_hot": false,
+        "num_selected_routes": 5,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "111011",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "bitstring": "001111",
+        "energy": 20.823659227479865,
+        "is_one_hot": false,
+        "num_selected_routes": 4,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "111100",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "bitstring": "101111",
+        "energy": 34.96793316091792,
+        "is_one_hot": false,
+        "num_selected_routes": 5,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "111101",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "bitstring": "011111",
+        "energy": 35.13770704926892,
+        "is_one_hot": false,
+        "num_selected_routes": 5,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "111110",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "bitstring": "111111",
+        "energy": 53.281980982706976,
+        "is_one_hot": false,
+        "num_selected_routes": 6,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "111111",
+        "selected_route_id": null,
+        "selected_route_label": null
+      }
+    ],
+    "best_probability_route": {
+      "is_time_window_feasible": true,
+      "probability": 0.015624999999999986,
+      "route_cost": 16.557900792370614,
+      "route_id": "R01",
+      "route_label": "A-B-C"
+    },
+    "best_probability_state": {
+      "bits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "bitstring": "000000",
+      "energy": 2.0,
+      "is_one_hot": false,
+      "num_selected_routes": 0,
+      "probability": 0.015624999999999986,
+      "qiskit_bitstring": "000000",
+      "selected_route_id": null,
+      "selected_route_label": null
+    },
+    "invalid_probability": 0.9062499999999999,
+    "route_probabilities": [
+      {
+        "is_time_window_feasible": true,
+        "probability": 0.015624999999999986,
+        "route_cost": 16.557900792370614,
+        "route_id": "R01",
+        "route_label": "A-B-C"
+      },
+      {
+        "is_time_window_feasible": false,
+        "probability": 0.015624999999999986,
+        "route_cost": 36.04235743302664,
+        "route_id": "R02",
+        "route_label": "A-C-B"
+      },
+      {
+        "is_time_window_feasible": false,
+        "probability": 0.015624999999999986,
+        "route_cost": 47.256720393723825,
+        "route_id": "R03",
+        "route_label": "B-A-C"
+      },
+      {
+        "is_time_window_feasible": false,
+        "probability": 0.015624999999999986,
+        "route_cost": 70.84970896067969,
+        "route_id": "R04",
+        "route_label": "B-C-A"
+      },
+      {
+        "is_time_window_feasible": false,
+        "probability": 0.015624999999999986,
+        "route_cost": 114.76709893322095,
+        "route_id": "R05",
+        "route_label": "C-A-B"
+      },
+      {
+        "is_time_window_feasible": false,
+        "probability": 0.015624999999999986,
+        "route_cost": 91.18964962625935,
+        "route_id": "R06",
+        "route_label": "C-B-A"
+      }
+    ],
+    "top_states": [
+      {
+        "bits": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "bitstring": "000000",
+        "energy": 2.0,
+        "is_one_hot": false,
+        "num_selected_routes": 0,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "000000",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "bitstring": "100000",
+        "energy": 0.14427393343805872,
+        "is_one_hot": true,
+        "num_selected_routes": 1,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "000001",
+        "selected_route_id": "R01",
+        "selected_route_label": "A-B-C"
+      },
+      {
+        "bits": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "bitstring": "010000",
+        "energy": 0.31404782178905166,
+        "is_one_hot": true,
+        "num_selected_routes": 1,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "000010",
+        "selected_route_id": "R02",
+        "selected_route_label": "A-C-B"
+      },
+      {
+        "bits": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "bitstring": "110000",
+        "energy": 2.4583217552271104,
+        "is_one_hot": false,
+        "num_selected_routes": 2,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "000011",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "bitstring": "001000",
+        "energy": 0.4117619146339222,
+        "is_one_hot": true,
+        "num_selected_routes": 1,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "000100",
+        "selected_route_id": "R03",
+        "selected_route_label": "B-A-C"
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "bitstring": "101000",
+        "energy": 2.556035848071981,
+        "is_one_hot": false,
+        "num_selected_routes": 2,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "000101",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "bitstring": "011000",
+        "energy": 2.725809736422974,
+        "is_one_hot": false,
+        "num_selected_routes": 2,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "000110",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "bitstring": "111000",
+        "energy": 8.870083669861032,
+        "is_one_hot": false,
+        "num_selected_routes": 3,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "000111",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "bitstring": "000100",
+        "energy": 0.6173346683783016,
+        "is_one_hot": true,
+        "num_selected_routes": 1,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "001000",
+        "selected_route_id": "R04",
+        "selected_route_label": "B-C-A"
+      },
+      {
+        "bits": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "bitstring": "100100",
+        "energy": 2.76160860181636,
+        "is_one_hot": false,
+        "num_selected_routes": 2,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "001001",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "bitstring": "010100",
+        "energy": 2.931382490167353,
+        "is_one_hot": false,
+        "num_selected_routes": 2,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "001010",
+        "selected_route_id": null,
+        "selected_route_label": null
+      },
+      {
+        "bits": [
+          1,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "bitstring": "110100",
+        "energy": 9.075656423605412,
+        "is_one_hot": false,
+        "num_selected_routes": 3,
+        "probability": 0.015624999999999986,
+        "qiskit_bitstring": "001011",
+        "selected_route_id": null,
+        "selected_route_label": null
+      }
+    ]
+  },
+  "seed": 42
+}

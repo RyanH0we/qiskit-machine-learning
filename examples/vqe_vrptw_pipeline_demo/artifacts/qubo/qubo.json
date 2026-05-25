@@ -1,0 +1,117 @@
+{
+  "constant": 2.0,
+  "cost_scale": 114.76709893322095,
+  "cost_units": "normalized route cost; multiply one-hot route energy by cost_scale to recover route-cost units",
+  "description": "route-selection QUBO for a one-vehicle VRPTW toy instance",
+  "linear": [
+    -1.8557260665619413,
+    -1.6859521782109483,
+    -1.5882380853660778,
+    -1.3826653316216984,
+    -1.0,
+    -1.2054373555323594
+  ],
+  "num_variables": 6,
+  "objective": "min sum(normalized_route_cost[r] * x_r) + penalty * (sum(x_r) - 1)^2",
+  "penalty": 2.0,
+  "quadratic": [
+    [
+      0.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    [
+      0.0,
+      0.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      4.0,
+      4.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      4.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "variables": [
+    {
+      "index": 0,
+      "name": "x_R01",
+      "route_cost": 16.557900792370614,
+      "route_cost_normalized": 0.14427393343805867,
+      "route_id": "R01",
+      "route_label": "A-B-C"
+    },
+    {
+      "index": 1,
+      "name": "x_R02",
+      "route_cost": 36.04235743302664,
+      "route_cost_normalized": 0.3140478217890517,
+      "route_id": "R02",
+      "route_label": "A-C-B"
+    },
+    {
+      "index": 2,
+      "name": "x_R03",
+      "route_cost": 47.256720393723825,
+      "route_cost_normalized": 0.41176191463392214,
+      "route_id": "R03",
+      "route_label": "B-A-C"
+    },
+    {
+      "index": 3,
+      "name": "x_R04",
+      "route_cost": 70.84970896067969,
+      "route_cost_normalized": 0.6173346683783016,
+      "route_id": "R04",
+      "route_label": "B-C-A"
+    },
+    {
+      "index": 4,
+      "name": "x_R05",
+      "route_cost": 114.76709893322095,
+      "route_cost_normalized": 1.0,
+      "route_id": "R05",
+      "route_label": "C-A-B"
+    },
+    {
+      "index": 5,
+      "name": "x_R06",
+      "route_cost": 91.18964962625935,
+      "route_cost_normalized": 0.7945626444676405,
+      "route_id": "R06",
+      "route_label": "C-B-A"
+    }
+  ]
+}

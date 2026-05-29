@@ -1,0 +1,50 @@
+{
+  "acceptance": {
+    "constraint_satisfied": true,
+    "default_instance_optimal_makespan_is_4": true,
+    "most_likely_sample_is_optimal": false,
+    "vqe_best_measurement_reaches_optimal_qubo_energy": true,
+    "vqe_sampled_optimal_makespan": true,
+    "vqe_sampled_optimal_qubo_energy": false,
+    "vqe_top_candidates_include_makespan_4": true
+  },
+  "decoded": {
+    "best_feasible_bitstring": "10010001001001",
+    "best_feasible_found": true,
+    "best_feasible_makespan": 4,
+    "best_feasible_makespan_is_optimal": true,
+    "best_feasible_qubo_energy": 5.0,
+    "best_feasible_qubo_energy_is_optimal": false,
+    "best_measurement_bitstring": "01010001010001",
+    "best_measurement_feasible": true,
+    "best_measurement_makespan": 4,
+    "best_measurement_qubo_energy": 4.0,
+    "best_measurement_qubo_energy_is_optimal": true,
+    "most_likely_feasible": true,
+    "most_likely_sample_is_optimal": false,
+    "num_feasible_sampled_bitstrings": 4,
+    "num_sampled_bitstrings": 37,
+    "top_candidates_contain_optimal_makespan": true
+  },
+  "initial": {
+    "best_sample_feasible": false,
+    "best_sample_qubo_energy": 30.0,
+    "mean_qubo_energy": 49.51318359375
+  },
+  "reference": {
+    "optimal_bitstring": "01010001001001",
+    "optimal_makespan": 4,
+    "optimal_qubo_energy": 4.0
+  },
+  "vqe": {
+    "best_measurement": {
+      "bitstring": "01010001010001",
+      "probability": 0.00146484375,
+      "state": 5201,
+      "value": 4.0
+    },
+    "energy_gap_to_classical_optimum": 5.12939453125,
+    "mean_qubo_energy": 9.12939453125,
+    "num_evaluations_recorded": 120
+  }
+}

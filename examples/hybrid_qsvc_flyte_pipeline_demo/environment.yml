@@ -1,0 +1,27 @@
+# Hybrid QSVC + Flyte 编排示例的本地驱动机 conda 环境。
+#
+# 用法（从仓库根目录）:
+#   conda env create -f examples/hybrid_qsvc_flyte_pipeline_demo/environment.yml
+#   conda activate qml-hybrid-flyte
+#   pip install -e .
+#
+# 容器内依赖由 pipeline_lib.py 中的 ImageSpec 控制，下面 pip 清单与
+# requirements-flyte.txt / COMMON_PACKAGES 保持一致。
+name: qml-hybrid-flyte
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - "flytekit==1.16.21"
+      - "qiskit>=2,<3"
+      - "qiskit-aer>=0.17"
+      - "numpy>=2.0"
+      - "scipy>=1.10"
+      - "scikit-learn>=1.2"
+      - "matplotlib>=3.7"
+      - "seaborn>=0.13"
+      - "dill>=0.3.4"
+      - "pylatexenc>=2.10"
+      - "setuptools>=40.1"

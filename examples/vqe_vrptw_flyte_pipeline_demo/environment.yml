@@ -1,0 +1,25 @@
+# VQE-VRPTW + Flyte 编排示例的本地驱动机 conda 环境。
+#
+# 用法（从仓库根目录）:
+#   conda env create -f examples/vqe_vrptw_flyte_pipeline_demo/environment.yml
+#   conda activate qml-vqe-vrptw-flyte
+#   pip install -e .
+#
+# 容器内运行依赖由 pipeline_lib.py 的 ImageSpec.packages 控制，与这里的 pip
+# 清单保持一致，确保本地 sanity check 与远程 pod 行为一致。
+name: qml-vqe-vrptw-flyte
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - "flytekit==1.16.21"
+      - "qiskit>=2,<3"
+      - "qiskit-algorithms==0.4.0"
+      - "qiskit-aer>=0.17"
+      - "numpy>=2.0"
+      - "scipy>=1.10"
+      - "matplotlib>=3.7"
+      - "dill>=0.3.4"
+      - "pylatexenc>=2.10"

@@ -1,0 +1,1013 @@
+{
+  "best_feasible_sample": {
+    "bitstring": "10010001001001",
+    "feasible": true,
+    "makespan": 4,
+    "probability": 0.000244140625,
+    "qubo_energy": 5.0,
+    "schedule": [
+      {
+        "duration": 2,
+        "finish": 2,
+        "job": 0,
+        "label": "J0O0",
+        "machine": 0,
+        "operation": 0,
+        "start": 0
+      },
+      {
+        "duration": 2,
+        "finish": 4,
+        "job": 1,
+        "label": "J1O1",
+        "machine": 0,
+        "operation": 1,
+        "start": 2
+      },
+      {
+        "duration": 1,
+        "finish": 1,
+        "job": 1,
+        "label": "J1O0",
+        "machine": 1,
+        "operation": 0,
+        "start": 0
+      },
+      {
+        "duration": 1,
+        "finish": 3,
+        "job": 0,
+        "label": "J0O1",
+        "machine": 1,
+        "operation": 1,
+        "start": 2
+      }
+    ],
+    "selected_cmax": 5,
+    "violations": []
+  },
+  "best_measurement_decoded": {
+    "bitstring": "01010001010001",
+    "feasible": true,
+    "makespan": 4,
+    "measurement_value": 4.0,
+    "probability": 0.00146484375,
+    "qubo_energy": 4.0,
+    "schedule": [
+      {
+        "duration": 2,
+        "finish": 2,
+        "job": 0,
+        "label": "J0O0",
+        "machine": 0,
+        "operation": 0,
+        "start": 0
+      },
+      {
+        "duration": 2,
+        "finish": 4,
+        "job": 1,
+        "label": "J1O1",
+        "machine": 0,
+        "operation": 1,
+        "start": 2
+      },
+      {
+        "duration": 1,
+        "finish": 1,
+        "job": 1,
+        "label": "J1O0",
+        "machine": 1,
+        "operation": 0,
+        "start": 0
+      },
+      {
+        "duration": 1,
+        "finish": 4,
+        "job": 0,
+        "label": "J0O1",
+        "machine": 1,
+        "operation": 1,
+        "start": 3
+      }
+    ],
+    "selected_cmax": 4,
+    "state": 5201,
+    "violations": []
+  },
+  "most_likely_sample": {
+    "bitstring": "10010001100001",
+    "feasible": true,
+    "makespan": 5,
+    "probability": 0.6328125,
+    "qubo_energy": 5.0,
+    "schedule": [
+      {
+        "duration": 2,
+        "finish": 2,
+        "job": 0,
+        "label": "J0O0",
+        "machine": 0,
+        "operation": 0,
+        "start": 0
+      },
+      {
+        "duration": 2,
+        "finish": 4,
+        "job": 1,
+        "label": "J1O1",
+        "machine": 0,
+        "operation": 1,
+        "start": 2
+      },
+      {
+        "duration": 1,
+        "finish": 1,
+        "job": 1,
+        "label": "J1O0",
+        "machine": 1,
+        "operation": 0,
+        "start": 0
+      },
+      {
+        "duration": 1,
+        "finish": 5,
+        "job": 0,
+        "label": "J0O1",
+        "machine": 1,
+        "operation": 1,
+        "start": 4
+      }
+    ],
+    "selected_cmax": 5,
+    "violations": []
+  },
+  "num_feasible_sampled_bitstrings": 4,
+  "num_sampled_bitstrings": 37,
+  "top_candidates": [
+    {
+      "bitstring": "10010001100001",
+      "feasible": true,
+      "makespan": 5,
+      "probability": 0.6328125,
+      "qubo_energy": 5.0,
+      "schedule": [
+        {
+          "duration": 2,
+          "finish": 2,
+          "job": 0,
+          "label": "J0O0",
+          "machine": 0,
+          "operation": 0,
+          "start": 0
+        },
+        {
+          "duration": 2,
+          "finish": 4,
+          "job": 1,
+          "label": "J1O1",
+          "machine": 0,
+          "operation": 1,
+          "start": 2
+        },
+        {
+          "duration": 1,
+          "finish": 1,
+          "job": 1,
+          "label": "J1O0",
+          "machine": 1,
+          "operation": 0,
+          "start": 0
+        },
+        {
+          "duration": 1,
+          "finish": 5,
+          "job": 0,
+          "label": "J0O1",
+          "machine": 1,
+          "operation": 1,
+          "start": 4
+        }
+      ],
+      "selected_cmax": 5,
+      "violations": []
+    },
+    {
+      "bitstring": "10010001100000",
+      "feasible": false,
+      "makespan": 5,
+      "probability": 0.266845703125,
+      "qubo_energy": 15.0,
+      "schedule": [
+        {
+          "duration": 2,
+          "finish": 4,
+          "job": 1,
+          "label": "J1O1",
+          "machine": 0,
+          "operation": 1,
+          "start": 2
+        },
+        {
+          "duration": 1,
+          "finish": 1,
+          "job": 1,
+          "label": "J1O0",
+          "machine": 1,
+          "operation": 0,
+          "start": 0
+        },
+        {
+          "duration": 1,
+          "finish": 5,
+          "job": 0,
+          "label": "J0O1",
+          "machine": 1,
+          "operation": 1,
+          "start": 4
+        }
+      ],
+      "selected_cmax": 5,
+      "violations": [
+        "工序 J0-O0 选择了 0 个开始时间"
+      ]
+    },
+    {
+      "bitstring": "10010011100001",
+      "feasible": false,
+      "makespan": 5,
+      "probability": 0.016845703125,
+      "qubo_energy": 15.0,
+      "schedule": [
+        {
+          "duration": 2,
+          "finish": 2,
+          "job": 0,
+          "label": "J0O0",
+          "machine": 0,
+          "operation": 0,
+          "start": 0
+        },
+        {
+          "duration": 2,
+          "finish": 4,
+          "job": 1,
+          "label": "J1O1",
+          "machine": 0,
+          "operation": 1,
+          "start": 2
+        },
+        {
+          "duration": 1,
+          "finish": 5,
+          "job": 0,
+          "label": "J0O1",
+          "machine": 1,
+          "operation": 1,
+          "start": 4
+        }
+      ],
+      "selected_cmax": 5,
+      "violations": [
+        "工序 J1-O0 选择了 2 个开始时间"
+      ]
+    },
+    {
+      "bitstring": "10110001100001",
+      "feasible": false,
+      "makespan": 5,
+      "probability": 0.01611328125,
+      "qubo_energy": 15.0,
+      "schedule": [
+        {
+          "duration": 2,
+          "finish": 2,
+          "job": 0,
+          "label": "J0O0",
+          "machine": 0,
+          "operation": 0,
+          "start": 0
+        },
+        {
+          "duration": 1,
+          "finish": 1,
+          "job": 1,
+          "label": "J1O0",
+          "machine": 1,
+          "operation": 0,
+          "start": 0
+        },
+        {
+          "duration": 1,
+          "finish": 5,
+          "job": 0,
+          "label": "J0O1",
+          "machine": 1,
+          "operation": 1,
+          "start": 4
+        }
+      ],
+      "selected_cmax": 5,
+      "violations": [
+        "工序 J1-O1 选择了 2 个开始时间"
+      ]
+    },
+    {
+      "bitstring": "10000001100001",
+      "feasible": false,
+      "makespan": 5,
+      "probability": 0.011962890625,
+      "qubo_energy": 15.0,
+      "schedule": [
+        {
+          "duration": 2,
+          "finish": 2,
+          "job": 0,
+          "label": "J0O0",
+          "machine": 0,
+          "operation": 0,
+          "start": 0
+        },
+        {
+          "duration": 1,
+          "finish": 1,
+          "job": 1,
+          "label": "J1O0",
+          "machine": 1,
+          "operation": 0,
+          "start": 0
+        },
+        {
+          "duration": 1,
+          "finish": 5,
+          "job": 0,
+          "label": "J0O1",
+          "machine": 1,
+          "operation": 1,
+          "start": 4
+        }
+      ],
+      "selected_cmax": 5,
+      "violations": [
+        "工序 J1-O1 选择了 0 个开始时间"
+      ]
+    },
+    {
+      "bitstring": "10010011100000",
+      "feasible": false,
+      "makespan": 5,
+      "probability": 0.0068359375,
+      "qubo_energy": 25.0,
+      "schedule": [
+        {
+          "duration": 2,
+          "finish": 4,
+          "job": 1,
+          "label": "J1O1",
+          "machine": 0,
+          "operation": 1,
+          "start": 2
+        },
+        {
+          "duration": 1,
+          "finish": 5,
+          "job": 0,
+          "label": "J0O1",
+          "machine": 1,
+          "operation": 1,
+          "start": 4
+        }
+      ],
+      "selected_cmax": 5,
+      "violations": [
+        "工序 J0-O0 选择了 0 个开始时间",
+        "工序 J1-O0 选择了 2 个开始时间"
+      ]
+    },
+    {
+      "bitstring": "10010001110001",
+      "feasible": false,
+      "makespan": 4,
+      "probability": 0.006103515625,
+      "qubo_energy": 15.0,
+      "schedule": [
+        {
+          "duration": 2,
+          "finish": 2,
+          "job": 0,
+          "label": "J0O0",
+          "machine": 0,
+          "operation": 0,
+          "start": 0
+        },
+        {
+          "duration": 2,
+          "finish": 4,
+          "job": 1,
+          "label": "J1O1",
+          "machine": 0,
+          "operation": 1,
+          "start": 2
+        },
+        {
+          "duration": 1,
+          "finish": 1,
+          "job": 1,
+          "label": "J1O0",
+          "machine": 1,
+          "operation": 0,
+          "start": 0
+        }
+      ],
+      "selected_cmax": 5,
+      "violations": [
+        "工序 J0-O1 选择了 2 个开始时间"
+      ]
+    },
+    {
+      "bitstring": "10010001110000",
+      "feasible": false,
+      "makespan": 4,
+      "probability": 0.005615234375,
+      "qubo_energy": 25.0,
+      "schedule": [
+        {
+          "duration": 2,
+          "finish": 4,
+          "job": 1,
+          "label": "J1O1",
+          "machine": 0,
+          "operation": 1,
+          "start": 2
+        },
+        {
+          "duration": 1,
+          "finish": 1,
+          "job": 1,
+          "label": "J1O0",
+          "machine": 1,
+          "operation": 0,
+          "start": 0
+        }
+      ],
+      "selected_cmax": 5,
+      "violations": [
+        "工序 J0-O0 选择了 0 个开始时间",
+        "工序 J0-O1 选择了 2 个开始时间"
+      ]
+    },
+    {
+      "bitstring": "10000001100000",
+      "feasible": false,
+      "makespan": 5,
+      "probability": 0.00537109375,
+      "qubo_energy": 25.0,
+      "schedule": [
+        {
+          "duration": 1,
+          "finish": 1,
+          "job": 1,
+          "label": "J1O0",
+          "machine": 1,
+          "operation": 0,
+          "start": 0
+        },
+        {
+          "duration": 1,
+          "finish": 5,
+          "job": 0,
+          "label": "J0O1",
+          "machine": 1,
+          "operation": 1,
+          "start": 4
+        }
+      ],
+      "selected_cmax": 5,
+      "violations": [
+        "工序 J0-O0 选择了 0 个开始时间",
+        "工序 J1-O1 选择了 0 个开始时间"
+      ]
+    },
+    {
+      "bitstring": "10110001100000",
+      "feasible": false,
+      "makespan": 5,
+      "probability": 0.004638671875,
+      "qubo_energy": 25.0,
+      "schedule": [
+        {
+          "duration": 1,
+          "finish": 1,
+          "job": 1,
+          "label": "J1O0",
+          "machine": 1,
+          "operation": 0,
+          "start": 0
+        },
+        {
+          "duration": 1,
+          "finish": 5,
+          "job": 0,
+          "label": "J0O1",
+          "machine": 1,
+          "operation": 1,
+          "start": 4
+        }
+      ],
+      "selected_cmax": 5,
+      "violations": [
+        "工序 J0-O0 选择了 0 个开始时间",
+        "工序 J1-O1 选择了 2 个开始时间"
+      ]
+    },
+    {
+      "bitstring": "11010001100001",
+      "feasible": false,
+      "makespan": 5,
+      "probability": 0.004638671875,
+      "qubo_energy": 29.0,
+      "schedule": [
+        {
+          "duration": 2,
+          "finish": 2,
+          "job": 0,
+          "label": "J0O0",
+          "machine": 0,
+          "operation": 0,
+          "start": 0
+        },
+        {
+          "duration": 2,
+          "finish": 4,
+          "job": 1,
+          "label": "J1O1",
+          "machine": 0,
+          "operation": 1,
+          "start": 2
+        },
+        {
+          "duration": 1,
+          "finish": 1,
+          "job": 1,
+          "label": "J1O0",
+          "machine": 1,
+          "operation": 0,
+          "start": 0
+        },
+        {
+          "duration": 1,
+          "finish": 5,
+          "job": 0,
+          "label": "J0O1",
+          "machine": 1,
+          "operation": 1,
+          "start": 4
+        }
+      ],
+      "selected_cmax": null,
+      "violations": [
+        "Cmax 选择了 2 个候选值"
+      ]
+    },
+    {
+      "bitstring": "10010001100011",
+      "feasible": false,
+      "makespan": 5,
+      "probability": 0.004150390625,
+      "qubo_energy": 25.0,
+      "schedule": [
+        {
+          "duration": 2,
+          "finish": 4,
+          "job": 1,
+          "label": "J1O1",
+          "machine": 0,
+          "operation": 1,
+          "start": 2
+        },
+        {
+          "duration": 1,
+          "finish": 1,
+          "job": 1,
+          "label": "J1O0",
+          "machine": 1,
+          "operation": 0,
+          "start": 0
+        },
+        {
+          "duration": 1,
+          "finish": 5,
+          "job": 0,
+          "label": "J0O1",
+          "machine": 1,
+          "operation": 1,
+          "start": 4
+        }
+      ],
+      "selected_cmax": 5,
+      "violations": [
+        "工序 J0-O0 选择了 2 个开始时间"
+      ]
+    },
+    {
+      "bitstring": "10010000100001",
+      "feasible": false,
+      "makespan": 5,
+      "probability": 0.00341796875,
+      "qubo_energy": 15.0,
+      "schedule": [
+        {
+          "duration": 2,
+          "finish": 2,
+          "job": 0,
+          "label": "J0O0",
+          "machine": 0,
+          "operation": 0,
+          "start": 0
+        },
+        {
+          "duration": 2,
+          "finish": 4,
+          "job": 1,
+          "label": "J1O1",
+          "machine": 0,
+          "operation": 1,
+          "start": 2
+        },
+        {
+          "duration": 1,
+          "finish": 5,
+          "job": 0,
+          "label": "J0O1",
+          "machine": 1,
+          "operation": 1,
+          "start": 4
+        }
+      ],
+      "selected_cmax": 5,
+      "violations": [
+        "工序 J1-O0 选择了 0 个开始时间"
+      ]
+    },
+    {
+      "bitstring": "10010001100010",
+      "feasible": false,
+      "makespan": 5,
+      "probability": 0.00244140625,
+      "qubo_energy": 15.0,
+      "schedule": [
+        {
+          "duration": 2,
+          "finish": 3,
+          "job": 0,
+          "label": "J0O0",
+          "machine": 0,
+          "operation": 0,
+          "start": 1
+        },
+        {
+          "duration": 2,
+          "finish": 4,
+          "job": 1,
+          "label": "J1O1",
+          "machine": 0,
+          "operation": 1,
+          "start": 2
+        },
+        {
+          "duration": 1,
+          "finish": 1,
+          "job": 1,
+          "label": "J1O0",
+          "machine": 1,
+          "operation": 0,
+          "start": 0
+        },
+        {
+          "duration": 1,
+          "finish": 5,
+          "job": 0,
+          "label": "J0O1",
+          "machine": 1,
+          "operation": 1,
+          "start": 4
+        }
+      ],
+      "selected_cmax": 5,
+      "violations": [
+        "机器 M0 上 J0O0 与 J1O1 时间重叠"
+      ]
+    },
+    {
+      "bitstring": "10011001100001",
+      "feasible": false,
+      "makespan": 5,
+      "probability": 0.001708984375,
+      "qubo_energy": 25.0,
+      "schedule": [
+        {
+          "duration": 2,
+          "finish": 2,
+          "job": 0,
+          "label": "J0O0",
+          "machine": 0,
+          "operation": 0,
+          "start": 0
+        },
+        {
+          "duration": 1,
+          "finish": 1,
+          "job": 1,
+          "label": "J1O0",
+          "machine": 1,
+          "operation": 0,
+          "start": 0
+        },
+        {
+          "duration": 1,
+          "finish": 5,
+          "job": 0,
+          "label": "J0O1",
+          "machine": 1,
+          "operation": 1,
+          "start": 4
+        }
+      ],
+      "selected_cmax": 5,
+      "violations": [
+        "工序 J1-O1 选择了 2 个开始时间"
+      ]
+    },
+    {
+      "bitstring": "10010001000001",
+      "feasible": false,
+      "makespan": 4,
+      "probability": 0.001220703125,
+      "qubo_energy": 15.0,
+      "schedule": [
+        {
+          "duration": 2,
+          "finish": 2,
+          "job": 0,
+          "label": "J0O0",
+          "machine": 0,
+          "operation": 0,
+          "start": 0
+        },
+        {
+          "duration": 2,
+          "finish": 4,
+          "job": 1,
+          "label": "J1O1",
+          "machine": 0,
+          "operation": 1,
+          "start": 2
+        },
+        {
+          "duration": 1,
+          "finish": 1,
+          "job": 1,
+          "label": "J1O0",
+          "machine": 1,
+          "operation": 0,
+          "start": 0
+        }
+      ],
+      "selected_cmax": 5,
+      "violations": [
+        "工序 J0-O1 选择了 0 个开始时间"
+      ]
+    },
+    {
+      "bitstring": "00010001100001",
+      "feasible": false,
+      "makespan": 5,
+      "probability": 0.000732421875,
+      "qubo_energy": 10.0,
+      "schedule": [
+        {
+          "duration": 2,
+          "finish": 2,
+          "job": 0,
+          "label": "J0O0",
+          "machine": 0,
+          "operation": 0,
+          "start": 0
+        },
+        {
+          "duration": 2,
+          "finish": 4,
+          "job": 1,
+          "label": "J1O1",
+          "machine": 0,
+          "operation": 1,
+          "start": 2
+        },
+        {
+          "duration": 1,
+          "finish": 1,
+          "job": 1,
+          "label": "J1O0",
+          "machine": 1,
+          "operation": 0,
+          "start": 0
+        },
+        {
+          "duration": 1,
+          "finish": 5,
+          "job": 0,
+          "label": "J0O1",
+          "machine": 1,
+          "operation": 1,
+          "start": 4
+        }
+      ],
+      "selected_cmax": null,
+      "violations": [
+        "Cmax 选择了 0 个候选值"
+      ]
+    },
+    {
+      "bitstring": "10010001001001",
+      "feasible": true,
+      "makespan": 4,
+      "probability": 0.000244140625,
+      "qubo_energy": 5.0,
+      "schedule": [
+        {
+          "duration": 2,
+          "finish": 2,
+          "job": 0,
+          "label": "J0O0",
+          "machine": 0,
+          "operation": 0,
+          "start": 0
+        },
+        {
+          "duration": 2,
+          "finish": 4,
+          "job": 1,
+          "label": "J1O1",
+          "machine": 0,
+          "operation": 1,
+          "start": 2
+        },
+        {
+          "duration": 1,
+          "finish": 1,
+          "job": 1,
+          "label": "J1O0",
+          "machine": 1,
+          "operation": 0,
+          "start": 0
+        },
+        {
+          "duration": 1,
+          "finish": 3,
+          "job": 0,
+          "label": "J0O1",
+          "machine": 1,
+          "operation": 1,
+          "start": 2
+        }
+      ],
+      "selected_cmax": 5,
+      "violations": []
+    },
+    {
+      "bitstring": "10010010100001",
+      "feasible": true,
+      "makespan": 5,
+      "probability": 0.000244140625,
+      "qubo_energy": 5.0,
+      "schedule": [
+        {
+          "duration": 2,
+          "finish": 2,
+          "job": 0,
+          "label": "J0O0",
+          "machine": 0,
+          "operation": 0,
+          "start": 0
+        },
+        {
+          "duration": 2,
+          "finish": 4,
+          "job": 1,
+          "label": "J1O1",
+          "machine": 0,
+          "operation": 1,
+          "start": 2
+        },
+        {
+          "duration": 1,
+          "finish": 2,
+          "job": 1,
+          "label": "J1O0",
+          "machine": 1,
+          "operation": 0,
+          "start": 1
+        },
+        {
+          "duration": 1,
+          "finish": 5,
+          "job": 0,
+          "label": "J0O1",
+          "machine": 1,
+          "operation": 1,
+          "start": 4
+        }
+      ],
+      "selected_cmax": 5,
+      "violations": []
+    },
+    {
+      "bitstring": "10100001100001",
+      "feasible": true,
+      "makespan": 5,
+      "probability": 0.000244140625,
+      "qubo_energy": 5.0,
+      "schedule": [
+        {
+          "duration": 2,
+          "finish": 2,
+          "job": 0,
+          "label": "J0O0",
+          "machine": 0,
+          "operation": 0,
+          "start": 0
+        },
+        {
+          "duration": 2,
+          "finish": 5,
+          "job": 1,
+          "label": "J1O1",
+          "machine": 0,
+          "operation": 1,
+          "start": 3
+        },
+        {
+          "duration": 1,
+          "finish": 1,
+          "job": 1,
+          "label": "J1O0",
+          "machine": 1,
+          "operation": 0,
+          "start": 0
+        },
+        {
+          "duration": 1,
+          "finish": 5,
+          "job": 0,
+          "label": "J0O1",
+          "machine": 1,
+          "operation": 1,
+          "start": 4
+        }
+      ],
+      "selected_cmax": 5,
+      "violations": []
+    },
+    {
+      "bitstring": "00010011100001",
+      "feasible": false,
+      "makespan": 5,
+      "probability": 0.000244140625,
+      "qubo_energy": 20.0,
+      "schedule": [
+        {
+          "duration": 2,
+          "finish": 2,
+          "job": 0,
+          "label": "J0O0",
+          "machine": 0,
+          "operation": 0,
+          "start": 0
+        },
+        {
+          "duration": 2,
+          "finish": 4,
+          "job": 1,
+          "label": "J1O1",
+          "machine": 0,
+          "operation": 1,
+          "start": 2
+        },
+        {
+          "duration": 1,
+          "finish": 5,
+          "job": 0,
+          "label": "J0O1",
+          "machine": 1,
+          "operation": 1,
+          "start": 4
+        }
+      ],
+      "selected_cmax": null,
+      "violations": [
+        "工序 J1-O0 选择了 2 个开始时间",
+        "Cmax 选择了 0 个候选值"
+      ]
+    }
+  ]
+}

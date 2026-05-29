@@ -1,0 +1,73 @@
+{
+  "description": "面向新手的 2 作业 x 2 机器 JSSP VQE 示例；经典最优 makespan 为 4",
+  "horizon": 5,
+  "jobs": [
+    {
+      "job": 0,
+      "operations": [
+        {
+          "duration": 2,
+          "machine": 0,
+          "operation": 0
+        },
+        {
+          "duration": 1,
+          "machine": 1,
+          "operation": 1
+        }
+      ]
+    },
+    {
+      "job": 1,
+      "operations": [
+        {
+          "duration": 1,
+          "machine": 1,
+          "operation": 0
+        },
+        {
+          "duration": 2,
+          "machine": 0,
+          "operation": 1
+        }
+      ]
+    }
+  ],
+  "known_optimal_makespan": 4,
+  "machines": [
+    0,
+    1
+  ],
+  "name": "jssp_2x2_teaching",
+  "operations": [
+    {
+      "duration": 2,
+      "job": 0,
+      "label": "J0O0",
+      "machine": 0,
+      "operation": 0
+    },
+    {
+      "duration": 1,
+      "job": 0,
+      "label": "J0O1",
+      "machine": 1,
+      "operation": 1
+    },
+    {
+      "duration": 1,
+      "job": 1,
+      "label": "J1O0",
+      "machine": 1,
+      "operation": 0
+    },
+    {
+      "duration": 2,
+      "job": 1,
+      "label": "J1O1",
+      "machine": 0,
+      "operation": 1
+    }
+  ],
+  "time_unit": "离散时间片"
+}

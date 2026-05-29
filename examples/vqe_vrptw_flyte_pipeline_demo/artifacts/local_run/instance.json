@@ -1,0 +1,155 @@
+{
+  "customers": [
+    {
+      "demand": 1,
+      "id": "A",
+      "service_time": 1.0,
+      "time_window": [
+        1.0,
+        1.0
+      ],
+      "x": 1.0,
+      "y": 0.0
+    },
+    {
+      "demand": 1,
+      "id": "B",
+      "service_time": 1.0,
+      "time_window": [
+        3.0,
+        3.0
+      ],
+      "x": 2.0,
+      "y": 0.0
+    },
+    {
+      "demand": 1,
+      "id": "C",
+      "service_time": 1.0,
+      "time_window": [
+        1.0,
+        1.0
+      ],
+      "x": 0.0,
+      "y": 1.0
+    },
+    {
+      "demand": 1,
+      "id": "D",
+      "service_time": 1.0,
+      "time_window": [
+        3.0,
+        3.0
+      ],
+      "x": 0.0,
+      "y": 2.0
+    }
+  ],
+  "depot": {
+    "id": "Depot",
+    "name": "Depot",
+    "service_time": 0.0,
+    "time_window": [
+      0.0,
+      8.0
+    ],
+    "x": 0.0,
+    "y": 0.0
+  },
+  "description": "2 辆车、4 个客户、容量和硬时间窗的最小通用 VRPTW 示例",
+  "distance_matrix": {
+    "A": {
+      "A": 0.0,
+      "B": 1.0,
+      "C": 1.4142135623730951,
+      "D": 2.23606797749979,
+      "Depot": 1.0
+    },
+    "B": {
+      "A": 1.0,
+      "B": 0.0,
+      "C": 2.23606797749979,
+      "D": 2.8284271247461903,
+      "Depot": 2.0
+    },
+    "C": {
+      "A": 1.4142135623730951,
+      "B": 2.23606797749979,
+      "C": 0.0,
+      "D": 1.0,
+      "Depot": 1.0
+    },
+    "D": {
+      "A": 2.23606797749979,
+      "B": 2.8284271247461903,
+      "C": 1.0,
+      "D": 0.0,
+      "Depot": 2.0
+    },
+    "Depot": {
+      "A": 1.0,
+      "B": 2.0,
+      "C": 1.0,
+      "D": 2.0,
+      "Depot": 0.0
+    }
+  },
+  "name": "vrptw_2_vehicle_4_customer_default",
+  "solver_config": {
+    "max_stops_per_vehicle": 2,
+    "time_granularity": 1.0
+  },
+  "travel_time_matrix": {
+    "A": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3,
+      "Depot": 1
+    },
+    "B": {
+      "A": 1,
+      "B": 0,
+      "C": 3,
+      "D": 3,
+      "Depot": 2
+    },
+    "C": {
+      "A": 2,
+      "B": 3,
+      "C": 0,
+      "D": 1,
+      "Depot": 1
+    },
+    "D": {
+      "A": 3,
+      "B": 3,
+      "C": 1,
+      "D": 0,
+      "Depot": 2
+    },
+    "Depot": {
+      "A": 1,
+      "B": 2,
+      "C": 1,
+      "D": 2,
+      "Depot": 0
+    }
+  },
+  "units": {
+    "distance": "Euclidean coordinate unit",
+    "time": "discrete time unit after applying time_granularity"
+  },
+  "vehicles": [
+    {
+      "capacity": 2,
+      "id": "V0",
+      "start_time": 0.0
+    },
+    {
+      "capacity": 2,
+      "id": "V1",
+      "start_time": 0.0
+    }
+  ]
+}

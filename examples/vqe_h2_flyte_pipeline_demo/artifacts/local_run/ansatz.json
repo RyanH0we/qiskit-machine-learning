@@ -1,0 +1,21 @@
+{
+  "ansatz": "UCCSD",
+  "initial_point": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "initial_state": "HartreeFock",
+  "num_parameters": 3,
+  "num_particles": [
+    1,
+    1
+  ],
+  "num_qubits": 4,
+  "num_spatial_orbitals": 2,
+  "parameters": [
+    "t[0]",
+    "t[1]",
+    "t[2]"
+  ]
+}

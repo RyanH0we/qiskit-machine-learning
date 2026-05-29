@@ -1,0 +1,14 @@
+# 与 pipeline_lib.py 中 COMMON_PACKAGES 保持一致。
+# 本文件用于本地开发 / sanity check；远端 task 容器由 ImageSpec 自动构建。
+
+flytekit==1.16.21
+qiskit>=2,<3
+qiskit-aer>=0.17
+numpy>=2.0
+scipy>=1.10
+scikit-learn>=1.2
+matplotlib>=3.7
+seaborn>=0.13
+dill>=0.3.4
+pylatexenc>=2.10
+setuptools>=40.1

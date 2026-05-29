@@ -1,0 +1,5 @@
+vehicle_id,position,customer_id,leg_from,arrival_time,service_start_time,departure_time,leg_distance,leg_travel_time,demand
+V0,0,A,Depot,1.0,1.0,2.0,1.0,1.0,1.0
+V0,1,B,A,3.0,3.0,4.0,1.0,1.0,1.0
+V1,0,C,Depot,1.0,1.0,2.0,1.0,1.0,1.0
+V1,1,D,C,3.0,3.0,4.0,1.0,1.0,1.0

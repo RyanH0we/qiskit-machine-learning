@@ -1,0 +1,959 @@
+{
+  "description": "Ising Hamiltonian equivalent to the time-indexed VRPTW QUBO",
+  "num_pauli_terms": 119,
+  "num_qubits": 20,
+  "pauli_terms": [
+    {
+      "abs_coefficient": 304.0915464701699,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 304.0915464701699
+      },
+      "pauli": "IIIIIIIIIIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 36.06636078729875,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -36.06636078729875
+      },
+      "pauli": "IIIIIIIIIIIIIIIIIIZI"
+    },
+    {
+      "abs_coefficient": 36.06636078729875,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -36.06636078729875
+      },
+      "pauli": "IIIIIIIIIIIIIIIIZIII"
+    },
+    {
+      "abs_coefficient": 36.06636078729875,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -36.06636078729875
+      },
+      "pauli": "IIIIIIIIZIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 36.06636078729875,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -36.06636078729875
+      },
+      "pauli": "IIIIIIZIIIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 35.587807396705486,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -35.587807396705486
+      },
+      "pauli": "IIIIZIIIIIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 35.58780739670548,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -35.58780739670548
+      },
+      "pauli": "IIIIIIIIIIIIIIZIIIII"
+    },
+    {
+      "abs_coefficient": 35.58780739670548,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -35.58780739670548
+      },
+      "pauli": "IIIIIIIIIIIIZIIIIIII"
+    },
+    {
+      "abs_coefficient": 35.58780739670548,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -35.58780739670548
+      },
+      "pauli": "IIZIIIIIIIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 33.38958409200212,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -33.38958409200212
+      },
+      "pauli": "IIIIIIIIIIIIIZIIIIII"
+    },
+    {
+      "abs_coefficient": 33.38958409200212,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -33.38958409200212
+      },
+      "pauli": "IIIIIIIIIIIZIIIIIIII"
+    },
+    {
+      "abs_coefficient": 33.38958409200212,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -33.38958409200212
+      },
+      "pauli": "IIIZIIIIIIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 33.38958409200212,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -33.38958409200212
+      },
+      "pauli": "IZIIIIIIIIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 33.1761957443538,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -33.1761957443538
+      },
+      "pauli": "IIIIIIIIIIIIIIIIIIIZ"
+    },
+    {
+      "abs_coefficient": 33.1761957443538,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -33.1761957443538
+      },
+      "pauli": "IIIIIIIIIIIIIIIIIZII"
+    },
+    {
+      "abs_coefficient": 33.1761957443538,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -33.1761957443538
+      },
+      "pauli": "IIIIIIIIIZIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 33.1761957443538,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -33.1761957443538
+      },
+      "pauli": "IIIIIIIZIIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 17.5,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 17.5
+      },
+      "pauli": "IIIIIIIIIIIIIIIZIIII"
+    },
+    {
+      "abs_coefficient": 17.5,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 17.5
+      },
+      "pauli": "IIIIIZIIIIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 13.030330085889911,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 13.030330085889911
+      },
+      "pauli": "IIIIIIIIIIZIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 13.030330085889911,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 13.030330085889911
+      },
+      "pauli": "ZIIIIIIIIIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 7.5,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 7.5
+      },
+      "pauli": "IIIIIIIIIIIIIIZIIIIZ"
+    },
+    {
+      "abs_coefficient": 7.5,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 7.5
+      },
+      "pauli": "IIIIIIIIIIIIIZIIIIZI"
+    },
+    {
+      "abs_coefficient": 7.5,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 7.5
+      },
+      "pauli": "IIIIIIIIIIIIZIIIIZII"
+    },
+    {
+      "abs_coefficient": 7.5,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 7.5
+      },
+      "pauli": "IIIIIIIIIIIZIIIIZIII"
+    },
+    {
+      "abs_coefficient": 7.5,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 7.5
+      },
+      "pauli": "IIIIZIIIIZIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 7.5,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 7.5
+      },
+      "pauli": "IIIZIIIIZIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 7.5,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 7.5
+      },
+      "pauli": "IIZIIIIZIIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 7.5,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 7.5
+      },
+      "pauli": "IZIIIIZIIIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIIIIIIIIIIIIIIIIIZZ"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIIIIIIIIIIIIIIIIZIZ"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIIIIIIIIIIIIIIIZIIZ"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -5.0
+      },
+      "pauli": "IIIIIIIIIIIIIIIZIIIZ"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIIIIIIIIZIIIIIIIIIZ"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIIIZIIIIIIIIIIIIIIZ"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIIIIIIIIIIIIIIIIZZI"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIIIIIIIIIIIIIIIZIZI"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -5.0
+      },
+      "pauli": "IIIIIIIIIIIIIIIZIIZI"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIIIIIIIZIIIIIIIIIZI"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIIZIIIIIIIIIIIIIIZI"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIIIIIIIIIIIIIIIZZII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -5.0
+      },
+      "pauli": "IIIIIIIIIIIIIIIZIZII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIIIIIIZIIIIIIIIIZII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIZIIIIIIIIIIIIIIZII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -5.0
+      },
+      "pauli": "IIIIIIIIIIIIIIIZZIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIIIIIZIIIIIIIIIZIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IZIIIIIIIIIIIIIIZIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIIIIIIIIIIIIZZIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIIIIIIIIIIIZIZIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIIIIIIIIIIZIIZIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -5.0
+      },
+      "pauli": "IIIIIIIIIIZIIIZIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIIIIIIIIZIIIIZIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIIIZIIIIIIIIIZIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIIIIIIIIIIIZZIIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIIIIIIIIIIZIZIIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -5.0
+      },
+      "pauli": "IIIIIIIIIIZIIZIIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIIIIIIIZIIIIZIIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIIZIIIIIIIIIZIIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIIIIIIIIIIZZIIIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -5.0
+      },
+      "pauli": "IIIIIIIIIIZIZIIIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIIIIIIZIIIIZIIIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIZIIIIIIIIIZIIIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -5.0
+      },
+      "pauli": "IIIIIIIIIIZZIIIIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIIIIIZIIIIZIIIIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IZIIIIIIIIIZIIIIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIIIIIIIZZIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIIIIIIZIZIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIIIIIZIIZIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -5.0
+      },
+      "pauli": "IIIIIZIIIZIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIIIIIIZZIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIIIIIZIZIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -5.0
+      },
+      "pauli": "IIIIIZIIZIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIIIIIZZIIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -5.0
+      },
+      "pauli": "IIIIIZIZIIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -5.0
+      },
+      "pauli": "IIIIIZZIIIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIIZZIIIIIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIZIZIIIIIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IZIIZIIIIIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -5.0
+      },
+      "pauli": "ZIIIZIIIIIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIZZIIIIIIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IZIZIIIIIIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -5.0
+      },
+      "pauli": "ZIIZIIIIIIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IZZIIIIIIIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -5.0
+      },
+      "pauli": "ZIZIIIIIIIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -5.0
+      },
+      "pauli": "ZZIIIIIIIIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 2.75,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 2.75
+      },
+      "pauli": "IIIIIIIIIIIZIIIIIIZI"
+    },
+    {
+      "abs_coefficient": 2.75,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 2.75
+      },
+      "pauli": "IIIIIIIIIIIIIZIIZIII"
+    },
+    {
+      "abs_coefficient": 2.75,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 2.75
+      },
+      "pauli": "IZIIIIIIZIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 2.75,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 2.75
+      },
+      "pauli": "IIIZIIZIIIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 2.6976423537605236,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 2.6976423537605236
+      },
+      "pauli": "IIIIIIIIIIIZIIIIIIIZ"
+    },
+    {
+      "abs_coefficient": 2.6976423537605236,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 2.6976423537605236
+      },
+      "pauli": "IIIIIIIIIIIIZIIIIIZI"
+    },
+    {
+      "abs_coefficient": 2.6976423537605236,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 2.6976423537605236
+      },
+      "pauli": "IIIIIIIIIIIIIZIIIZII"
+    },
+    {
+      "abs_coefficient": 2.6976423537605236,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 2.6976423537605236
+      },
+      "pauli": "IIIIIIIIIIIIIIZIZIII"
+    },
+    {
+      "abs_coefficient": 2.6976423537605236,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 2.6976423537605236
+      },
+      "pauli": "IZIIIIIIIZIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 2.6976423537605236,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 2.6976423537605236
+      },
+      "pauli": "IIZIIIIIZIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 2.6976423537605236,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 2.6976423537605236
+      },
+      "pauli": "IIIZIIIZIIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 2.6976423537605236,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 2.6976423537605236
+      },
+      "pauli": "IIIIZIZIIIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 2.625,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 2.625
+      },
+      "pauli": "IIIIIIIIIIIIZIIIIIIZ"
+    },
+    {
+      "abs_coefficient": 2.625,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 2.625
+      },
+      "pauli": "IIIIIIIIIIIIIIZIIZII"
+    },
+    {
+      "abs_coefficient": 2.625,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 2.625
+      },
+      "pauli": "IIZIIIIIIZIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 2.625,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 2.625
+      },
+      "pauli": "IIIIZIIZIIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 2.5883883476483183,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 2.5883883476483183
+      },
+      "pauli": "IIIIIIIIIIIIIIZIIIZI"
+    },
+    {
+      "abs_coefficient": 2.5883883476483183,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 2.5883883476483183
+      },
+      "pauli": "IIIIIIIIIIIIZIIIZIII"
+    },
+    {
+      "abs_coefficient": 2.5883883476483183,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 2.5883883476483183
+      },
+      "pauli": "IIIIZIIIZIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 2.5883883476483183,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 2.5883883476483183
+      },
+      "pauli": "IIZIIIZIIIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 2.5,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -2.5
+      },
+      "pauli": "IIIIIIIIIIZIIIIZIIII"
+    },
+    {
+      "abs_coefficient": 2.5,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -2.5
+      },
+      "pauli": "ZIIIIZIIIIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 0.17677669529663687,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -0.17677669529663687
+      },
+      "pauli": "IIIIIIIIIIZIIIIIIIZI"
+    },
+    {
+      "abs_coefficient": 0.17677669529663687,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -0.17677669529663687
+      },
+      "pauli": "IIIIIIIIIIZIIIIIZIII"
+    },
+    {
+      "abs_coefficient": 0.17677669529663687,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -0.17677669529663687
+      },
+      "pauli": "ZIIIIIIIZIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 0.17677669529663687,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -0.17677669529663687
+      },
+      "pauli": "ZIIIIIZIIIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 0.08838834764831843,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 0.08838834764831843
+      },
+      "pauli": "IIIIIIIIIIIIIZIIIIIZ"
+    },
+    {
+      "abs_coefficient": 0.08838834764831843,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -0.08838834764831843
+      },
+      "pauli": "IIIIIIIIIIZIIIIIIIIZ"
+    },
+    {
+      "abs_coefficient": 0.08838834764831843,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 0.08838834764831843
+      },
+      "pauli": "IIIIIIIIIIIZIIIIIZII"
+    },
+    {
+      "abs_coefficient": 0.08838834764831843,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -0.08838834764831843
+      },
+      "pauli": "IIIIIIIIIIZIIIIIIZII"
+    },
+    {
+      "abs_coefficient": 0.08838834764831843,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 0.08838834764831843
+      },
+      "pauli": "IIIZIIIIIZIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 0.08838834764831843,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -0.08838834764831843
+      },
+      "pauli": "ZIIIIIIIIZIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 0.08838834764831843,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 0.08838834764831843
+      },
+      "pauli": "IZIIIIIZIIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 0.08838834764831843,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -0.08838834764831843
+      },
+      "pauli": "ZIIIIIIZIIIIIIIIIIII"
+    }
+  ]
+}

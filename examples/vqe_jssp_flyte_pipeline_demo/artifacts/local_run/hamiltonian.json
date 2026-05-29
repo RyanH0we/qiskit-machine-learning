@@ -1,0 +1,507 @@
+{
+  "mapping": "x=(1-Z)/2",
+  "num_pauli_terms": 43,
+  "num_qubits": 14,
+  "pauli_terms": [
+    {
+      "abs_coefficient": 87.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 87.0
+      },
+      "pauli": "IIIIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 17.5,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -17.5
+      },
+      "pauli": "IIIIIIIIIIIZII"
+    },
+    {
+      "abs_coefficient": 17.5,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -17.5
+      },
+      "pauli": "IIIIZIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 12.5,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -12.5
+      },
+      "pauli": "IIIIIIIIIIIIZI"
+    },
+    {
+      "abs_coefficient": 12.5,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -12.5
+      },
+      "pauli": "IIIIIZIIIIIIII"
+    },
+    {
+      "abs_coefficient": 12.5,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -12.5
+      },
+      "pauli": "IIIZIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 12.5,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -12.5
+      },
+      "pauli": "IIIIIIIIIIZIII"
+    },
+    {
+      "abs_coefficient": 10.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -10.0
+      },
+      "pauli": "IIZIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 7.5,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -7.5
+      },
+      "pauli": "IIIIIIZIIIIIII"
+    },
+    {
+      "abs_coefficient": 7.5,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -7.5
+      },
+      "pauli": "IIIIIIIIZIIIII"
+    },
+    {
+      "abs_coefficient": 7.5,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -7.5
+      },
+      "pauli": "IIIIIIIIIZIIII"
+    },
+    {
+      "abs_coefficient": 7.5,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -7.5
+      },
+      "pauli": "IIIIIIIIIIIIIZ"
+    },
+    {
+      "abs_coefficient": 7.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -7.0
+      },
+      "pauli": "IZIIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -5.0
+      },
+      "pauli": "IIIIIIIZIIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIIIIIIIIIIIZZ"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIIIIIIIIIIZIZ"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIIIIIIIZZIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIIIIIIIIIIZZI"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIIIIIIIZIZIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIIIIIIIIZZIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIZIZIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIIIIZZIIIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIIIIZIZIIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIIIIIZZIIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIZZIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "ZZIIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 5.0,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 5.0
+      },
+      "pauli": "IIIZZIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 2.5,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 2.5
+      },
+      "pauli": "IIIIIIIIIZIZII"
+    },
+    {
+      "abs_coefficient": 2.5,
+      "coefficient": {
+        "imag": 0.0,
+        "real": -2.5
+      },
+      "pauli": "ZIIIIIIIIIIIII"
+    },
+    {
+      "abs_coefficient": 2.5,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 2.5
+      },
+      "pauli": "IIIIZIIIIIIIZI"
+    },
+    {
+      "abs_coefficient": 2.5,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 2.5
+      },
+      "pauli": "IIIIZIIIIIIIIZ"
+    },
+    {
+      "abs_coefficient": 2.5,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 2.5
+      },
+      "pauli": "IIIIIIIIIIZIZI"
+    },
+    {
+      "abs_coefficient": 2.5,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 2.5
+      },
+      "pauli": "IZIIIIIIZIIIII"
+    },
+    {
+      "abs_coefficient": 2.5,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 2.5
+      },
+      "pauli": "IIIIIZIIIIZIII"
+    },
+    {
+      "abs_coefficient": 2.5,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 2.5
+      },
+      "pauli": "IIIZIIIIIIIZII"
+    },
+    {
+      "abs_coefficient": 2.5,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 2.5
+      },
+      "pauli": "IIZIIIIIIIIZII"
+    },
+    {
+      "abs_coefficient": 2.5,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 2.5
+      },
+      "pauli": "IIIIZIIIIIIZII"
+    },
+    {
+      "abs_coefficient": 2.5,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 2.5
+      },
+      "pauli": "IIIZIIIIIIIIZI"
+    },
+    {
+      "abs_coefficient": 2.5,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 2.5
+      },
+      "pauli": "IIIIIIIIIIZZII"
+    },
+    {
+      "abs_coefficient": 2.5,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 2.5
+      },
+      "pauli": "IIIIZIZIIIIIII"
+    },
+    {
+      "abs_coefficient": 2.5,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 2.5
+      },
+      "pauli": "IIIIZZIIIIIIII"
+    },
+    {
+      "abs_coefficient": 2.5,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 2.5
+      },
+      "pauli": "IIIZIZIIIIIIII"
+    },
+    {
+      "abs_coefficient": 2.5,
+      "coefficient": {
+        "imag": 0.0,
+        "real": 2.5
+      },
+      "pauli": "IZZIIIIIIIIIII"
+    }
+  ],
+  "qubo": {
+    "candidate_makespans": [
+      4,
+      5
+    ],
+    "lower_bound_makespan": 4,
+    "num_variables": 14,
+    "offset": 50.0,
+    "penalty": 10.0,
+    "variables": [
+      {
+        "duration": 2,
+        "finish": 2,
+        "index": 0,
+        "job": 0,
+        "kind": "start",
+        "machine": 0,
+        "name": "x_j0_o0_t0",
+        "operation": 0,
+        "start": 0
+      },
+      {
+        "duration": 2,
+        "finish": 3,
+        "index": 1,
+        "job": 0,
+        "kind": "start",
+        "machine": 0,
+        "name": "x_j0_o0_t1",
+        "operation": 0,
+        "start": 1
+      },
+      {
+        "duration": 2,
+        "finish": 4,
+        "index": 2,
+        "job": 0,
+        "kind": "start",
+        "machine": 0,
+        "name": "x_j0_o0_t2",
+        "operation": 0,
+        "start": 2
+      },
+      {
+        "duration": 1,
+        "finish": 3,
+        "index": 3,
+        "job": 0,
+        "kind": "start",
+        "machine": 1,
+        "name": "x_j0_o1_t2",
+        "operation": 1,
+        "start": 2
+      },
+      {
+        "duration": 1,
+        "finish": 4,
+        "index": 4,
+        "job": 0,
+        "kind": "start",
+        "machine": 1,
+        "name": "x_j0_o1_t3",
+        "operation": 1,
+        "start": 3
+      },
+      {
+        "duration": 1,
+        "finish": 5,
+        "index": 5,
+        "job": 0,
+        "kind": "start",
+        "machine": 1,
+        "name": "x_j0_o1_t4",
+        "operation": 1,
+        "start": 4
+      },
+      {
+        "duration": 1,
+        "finish": 1,
+        "index": 6,
+        "job": 1,
+        "kind": "start",
+        "machine": 1,
+        "name": "x_j1_o0_t0",
+        "operation": 0,
+        "start": 0
+      },
+      {
+        "duration": 1,
+        "finish": 2,
+        "index": 7,
+        "job": 1,
+        "kind": "start",
+        "machine": 1,
+        "name": "x_j1_o0_t1",
+        "operation": 0,
+        "start": 1
+      },
+      {
+        "duration": 1,
+        "finish": 3,
+        "index": 8,
+        "job": 1,
+        "kind": "start",
+        "machine": 1,
+        "name": "x_j1_o0_t2",
+        "operation": 0,
+        "start": 2
+      },
+      {
+        "duration": 2,
+        "finish": 3,
+        "index": 9,
+        "job": 1,
+        "kind": "start",
+        "machine": 0,
+        "name": "x_j1_o1_t1",
+        "operation": 1,
+        "start": 1
+      },
+      {
+        "duration": 2,
+        "finish": 4,
+        "index": 10,
+        "job": 1,
+        "kind": "start",
+        "machine": 0,
+        "name": "x_j1_o1_t2",
+        "operation": 1,
+        "start": 2
+      },
+      {
+        "duration": 2,
+        "finish": 5,
+        "index": 11,
+        "job": 1,
+        "kind": "start",
+        "machine": 0,
+        "name": "x_j1_o1_t3",
+        "operation": 1,
+        "start": 3
+      },
+      {
+        "index": 12,
+        "kind": "cmax",
+        "makespan": 4,
+        "name": "cmax_4"
+      },
+      {
+        "index": 13,
+        "kind": "cmax",
+        "makespan": 5,
+        "name": "cmax_5"
+      }
+    ]
+  }
+}

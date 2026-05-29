@@ -1,0 +1,18 @@
+# 与 workflow.py 的 ImageSpec(packages=...) 保持完全一致。
+#
+# 这份 txt 是为"本地开发+sanity check"准备的:
+#   pip install -r requirements-flyte.txt
+#
+# 容器内的依赖由 ImageSpec 自动 build (见 workflow.py 顶部)；两份相同清单
+# 保证本地与容器跑出来一致。
+
+flytekit>=1.13,<2
+qiskit>=2,<3
+qiskit-algorithms==0.4.0
+qiskit-nature[pyscf]==0.7.2
+qiskit-aer>=0.17
+numpy>=2.0
+scipy>=1.10
+matplotlib>=3.7
+dill>=0.3.4
+pylatexenc>=2.10

@@ -1,0 +1,518 @@
+{
+  "initial_best_feasible_sample": {
+    "bitstring": "11000101001001010001",
+    "count": 1450,
+    "feasible": true,
+    "num_customers_served": 4,
+    "num_vehicles_used": 2,
+    "probability": 0.35400390625,
+    "qubo_energy": 2.8284271247461987,
+    "total_distance": 8.0,
+    "violations": []
+  },
+  "initial_best_sample_by_energy": {
+    "bitstring": "11000101001001010001",
+    "count": 1450,
+    "feasible": true,
+    "num_customers_served": 4,
+    "num_vehicles_used": 2,
+    "probability": 0.35400390625,
+    "qubo_energy": 2.8284271247461987,
+    "total_distance": 8.0,
+    "violations": []
+  },
+  "initial_mean_qubo_energy": 24.300591505876643,
+  "initial_point": [
+    1.2840397745833483,
+    0.17408301063648043,
+    0.17408301063648043,
+    0.17408301063648043,
+    1.2840397745833483,
+    0.17408301063648043,
+    1.2840397745833483,
+    0.17408301063648043,
+    0.17408301063648043,
+    1.2840397745833483,
+    0.17408301063648043,
+    0.17408301063648043,
+    1.2840397745833483,
+    0.17408301063648043,
+    1.2840397745833483,
+    0.17408301063648043,
+    0.17408301063648043,
+    0.17408301063648043,
+    1.2840397745833483,
+    1.2840397745833483,
+    1.2840397745833483,
+    0.17408301063648043,
+    0.17408301063648043,
+    0.17408301063648043,
+    1.2840397745833483,
+    0.17408301063648043,
+    1.2840397745833483,
+    0.17408301063648043,
+    0.17408301063648043,
+    1.2840397745833483,
+    0.17408301063648043,
+    0.17408301063648043,
+    1.2840397745833483,
+    0.17408301063648043,
+    1.2840397745833483,
+    0.17408301063648043,
+    0.17408301063648043,
+    0.17408301063648043,
+    1.2840397745833483,
+    1.2840397745833483
+  ],
+  "num_unique_bitstrings": 475,
+  "sampler": "StatevectorSampler",
+  "seed": 42,
+  "shots": 4096,
+  "top_samples": [
+    {
+      "bitstring": "11000101001001010001",
+      "count": 1450,
+      "feasible": true,
+      "num_customers_served": 4,
+      "num_vehicles_used": 2,
+      "probability": 0.35400390625,
+      "qubo_energy": 2.8284271247461987,
+      "total_distance": 8.0,
+      "violations": []
+    },
+    {
+      "bitstring": "01000101001001010001",
+      "count": 139,
+      "feasible": false,
+      "num_customers_served": 4,
+      "num_vehicles_used": 2,
+      "probability": 0.033935546875,
+      "qubo_energy": 13.181980515339472,
+      "total_distance": 8.0,
+      "violations": [
+        "车辆 V1 的位置 1 选择了 1 个客户，但 y=0"
+      ]
+    },
+    {
+      "bitstring": "11000001001001010001",
+      "count": 138,
+      "feasible": false,
+      "num_customers_served": 4,
+      "num_vehicles_used": 2,
+      "probability": 0.03369140625,
+      "qubo_energy": 22.8284271247462,
+      "total_distance": 8.0,
+      "violations": [
+        "车辆 V1 的位置 0 选择了 1 个客户，但 y=0",
+        "车辆 V1 的位置 1 有访问，但前一位置为空"
+      ]
+    },
+    {
+      "bitstring": "11000100001001010001",
+      "count": 129,
+      "feasible": false,
+      "num_customers_served": 3,
+      "num_vehicles_used": 2,
+      "probability": 0.031494140625,
+      "qubo_energy": 22.121320343559645,
+      "total_distance": 8.0,
+      "violations": [
+        "客户 C 被服务 0 次",
+        "车辆 V1 的位置 0 选择了 0 个客户，但 y=1"
+      ]
+    },
+    {
+      "bitstring": "10000101001001010001",
+      "count": 126,
+      "feasible": false,
+      "num_customers_served": 3,
+      "num_vehicles_used": 2,
+      "probability": 0.03076171875,
+      "qubo_energy": 21.767766952966372,
+      "total_distance": 6.0,
+      "violations": [
+        "客户 D 被服务 0 次",
+        "车辆 V1 的位置 1 选择了 0 个客户，但 y=1"
+      ]
+    },
+    {
+      "bitstring": "11000101001000010001",
+      "count": 123,
+      "feasible": false,
+      "num_customers_served": 3,
+      "num_vehicles_used": 2,
+      "probability": 0.030029296875,
+      "qubo_energy": 21.767766952966383,
+      "total_distance": 6.0,
+      "violations": [
+        "客户 B 被服务 0 次",
+        "车辆 V0 的位置 1 选择了 0 个客户，但 y=1"
+      ]
+    },
+    {
+      "bitstring": "11000101001001010000",
+      "count": 120,
+      "feasible": false,
+      "num_customers_served": 3,
+      "num_vehicles_used": 2,
+      "probability": 0.029296875,
+      "qubo_energy": 22.12132034355966,
+      "total_distance": 8.0,
+      "violations": [
+        "客户 A 被服务 0 次",
+        "车辆 V0 的位置 0 选择了 0 个客户，但 y=1"
+      ]
+    },
+    {
+      "bitstring": "11000101000001010001",
+      "count": 119,
+      "feasible": false,
+      "num_customers_served": 4,
+      "num_vehicles_used": 2,
+      "probability": 0.029052734375,
+      "qubo_energy": 13.181980515339461,
+      "total_distance": 8.0,
+      "violations": [
+        "车辆 V0 的位置 1 选择了 1 个客户，但 y=0"
+      ]
+    },
+    {
+      "bitstring": "11000101001001000001",
+      "count": 117,
+      "feasible": false,
+      "num_customers_served": 4,
+      "num_vehicles_used": 2,
+      "probability": 0.028564453125,
+      "qubo_energy": 22.828427124746185,
+      "total_distance": 8.0,
+      "violations": [
+        "车辆 V0 的位置 0 选择了 1 个客户，但 y=0",
+        "车辆 V0 的位置 1 有访问，但前一位置为空"
+      ]
+    },
+    {
+      "bitstring": "11100101001001010001",
+      "count": 52,
+      "feasible": false,
+      "num_customers_served": 3,
+      "num_vehicles_used": 2,
+      "probability": 0.0126953125,
+      "qubo_energy": 33.181980515339475,
+      "total_distance": 6.0,
+      "violations": [
+        "客户 C 被服务 2 次",
+        "车辆 V1 的位置 1 选择了 2 个客户，但 y=1",
+        "车辆 V1 的位置 1 同时选择了多个客户",
+        "车辆 V1 到客户 C 的到达时间 2.0 晚于服务开始 1.0"
+      ]
+    },
+    {
+      "bitstring": "11001101001001010001",
+      "count": 50,
+      "feasible": false,
+      "num_customers_served": 3,
+      "num_vehicles_used": 2,
+      "probability": 0.01220703125,
+      "qubo_energy": 33.681980515339475,
+      "total_distance": 7.414213562373095,
+      "violations": [
+        "客户 A 被服务 2 次",
+        "车辆 V1 的位置 1 选择了 2 个客户，但 y=1",
+        "车辆 V1 的位置 1 同时选择了多个客户",
+        "车辆 V1 到客户 A 的到达时间 4.0 晚于服务开始 1.0"
+      ]
+    },
+    {
+      "bitstring": "11000101001001010101",
+      "count": 50,
+      "feasible": false,
+      "num_customers_served": 4,
+      "num_vehicles_used": 2,
+      "probability": 0.01220703125,
+      "qubo_energy": 33.97254993038156,
+      "total_distance": 8.0,
+      "violations": [
+        "客户 C 被服务 2 次",
+        "车辆 V0 的位置 0 选择了 2 个客户，但 y=1",
+        "车辆 V0 的位置 0 同时选择了多个客户"
+      ]
+    },
+    {
+      "bitstring": "11000101011001010001",
+      "count": 49,
+      "feasible": false,
+      "num_customers_served": 3,
+      "num_vehicles_used": 2,
+      "probability": 0.011962890625,
+      "qubo_energy": 33.972549930381575,
+      "total_distance": 9.23606797749979,
+      "violations": [
+        "客户 A 被服务 2 次",
+        "车辆 V1 的位置 0 选择了 2 个客户，但 y=1",
+        "车辆 V1 的位置 0 同时选择了多个客户",
+        "车辆 V1 到客户 D 的到达时间 5.0 晚于服务开始 3.0"
+      ]
+    },
+    {
+      "bitstring": "11010101001001010001",
+      "count": 44,
+      "feasible": false,
+      "num_customers_served": 3,
+      "num_vehicles_used": 2,
+      "probability": 0.0107421875,
+      "qubo_energy": 34.32610332097485,
+      "total_distance": 9.23606797749979,
+      "violations": [
+        "客户 B 被服务 2 次",
+        "车辆 V1 的位置 1 选择了 2 个客户，但 y=1",
+        "车辆 V1 的位置 1 同时选择了多个客户",
+        "车辆 V1 到客户 B 的到达时间 5.0 晚于服务开始 3.0"
+      ]
+    },
+    {
+      "bitstring": "11000101001001110001",
+      "count": 43,
+      "feasible": false,
+      "num_customers_served": 3,
+      "num_vehicles_used": 2,
+      "probability": 0.010498046875,
+      "qubo_energy": 33.18198051533946,
+      "total_distance": 6.0,
+      "violations": [
+        "客户 A 被服务 2 次",
+        "车辆 V0 的位置 1 选择了 2 个客户，但 y=1",
+        "车辆 V0 的位置 1 同时选择了多个客户",
+        "车辆 V0 到客户 A 的到达时间 2.0 晚于服务开始 1.0"
+      ]
+    },
+    {
+      "bitstring": "11000101001101010001",
+      "count": 43,
+      "feasible": false,
+      "num_customers_served": 4,
+      "num_vehicles_used": 2,
+      "probability": 0.010498046875,
+      "qubo_energy": 34.32610332097484,
+      "total_distance": 8.0,
+      "violations": [
+        "客户 D 被服务 2 次",
+        "车辆 V0 的位置 1 选择了 2 个客户，但 y=1",
+        "车辆 V0 的位置 1 同时选择了多个客户"
+      ]
+    },
+    {
+      "bitstring": "11000101001001011001",
+      "count": 43,
+      "feasible": false,
+      "num_customers_served": 4,
+      "num_vehicles_used": 2,
+      "probability": 0.010498046875,
+      "qubo_energy": 34.53553390593274,
+      "total_distance": 8.0,
+      "violations": [
+        "客户 D 被服务 2 次",
+        "车辆 V0 的位置 0 选择了 2 个客户，但 y=1",
+        "车辆 V0 的位置 0 同时选择了多个客户"
+      ]
+    },
+    {
+      "bitstring": "11000101001001010011",
+      "count": 40,
+      "feasible": false,
+      "num_customers_served": 4,
+      "num_vehicles_used": 2,
+      "probability": 0.009765625,
+      "qubo_energy": 33.53553390593274,
+      "total_distance": 8.0,
+      "violations": [
+        "客户 B 被服务 2 次",
+        "车辆 V0 的位置 0 选择了 2 个客户，但 y=1",
+        "车辆 V0 的位置 0 同时选择了多个客户"
+      ]
+    },
+    {
+      "bitstring": "11000111001001010001",
+      "count": 39,
+      "feasible": false,
+      "num_customers_served": 4,
+      "num_vehicles_used": 2,
+      "probability": 0.009521484375,
+      "qubo_energy": 33.535533905932745,
+      "total_distance": 8.0,
+      "violations": [
+        "客户 D 被服务 2 次",
+        "车辆 V1 的位置 0 选择了 2 个客户，但 y=1",
+        "车辆 V1 的位置 0 同时选择了多个客户"
+      ]
+    },
+    {
+      "bitstring": "11000101001011010001",
+      "count": 36,
+      "feasible": false,
+      "num_customers_served": 4,
+      "num_vehicles_used": 2,
+      "probability": 0.0087890625,
+      "qubo_energy": 33.681980515339475,
+      "total_distance": 8.0,
+      "violations": [
+        "客户 C 被服务 2 次",
+        "车辆 V0 的位置 1 选择了 2 个客户，但 y=1",
+        "车辆 V0 的位置 1 同时选择了多个客户"
+      ]
+    },
+    {
+      "bitstring": "11000101101001010001",
+      "count": 33,
+      "feasible": false,
+      "num_customers_served": 3,
+      "num_vehicles_used": 2,
+      "probability": 0.008056640625,
+      "qubo_energy": 34.53553390593274,
+      "total_distance": 10.82842712474619,
+      "violations": [
+        "客户 B 被服务 2 次",
+        "车辆 V1 的位置 0 选择了 2 个客户，但 y=1",
+        "车辆 V1 的位置 0 同时选择了多个客户",
+        "车辆 V1 到客户 D 的到达时间 7.0 晚于服务开始 3.0"
+      ]
+    },
+    {
+      "bitstring": "11000101001000010000",
+      "count": 18,
+      "feasible": false,
+      "num_customers_served": 2,
+      "num_vehicles_used": 1,
+      "probability": 0.00439453125,
+      "qubo_energy": 41.41421356237311,
+      "total_distance": 4.0,
+      "violations": [
+        "客户 A 被服务 0 次",
+        "客户 B 被服务 0 次",
+        "车辆 V0 的位置 0 选择了 0 个客户，但 y=1",
+        "车辆 V0 的位置 1 选择了 0 个客户，但 y=1"
+      ]
+    },
+    {
+      "bitstring": "11000101000001010000",
+      "count": 14,
+      "feasible": false,
+      "num_customers_served": 3,
+      "num_vehicles_used": 2,
+      "probability": 0.00341796875,
+      "qubo_energy": 32.12132034355963,
+      "total_distance": 8.0,
+      "violations": [
+        "客户 A 被服务 0 次",
+        "车辆 V0 的位置 0 选择了 0 个客户，但 y=1",
+        "车辆 V0 的位置 1 选择了 1 个客户，但 y=0"
+      ]
+    },
+    {
+      "bitstring": "10000101001001000001",
+      "count": 14,
+      "feasible": false,
+      "num_customers_served": 3,
+      "num_vehicles_used": 2,
+      "probability": 0.00341796875,
+      "qubo_energy": 41.767766952966355,
+      "total_distance": 6.0,
+      "violations": [
+        "客户 D 被服务 0 次",
+        "车辆 V0 的位置 0 选择了 1 个客户，但 y=0",
+        "车辆 V0 的位置 1 有访问，但前一位置为空",
+        "车辆 V1 的位置 1 选择了 0 个客户，但 y=1"
+      ]
+    },
+    {
+      "bitstring": "11000101001000000001",
+      "count": 14,
+      "feasible": false,
+      "num_customers_served": 3,
+      "num_vehicles_used": 2,
+      "probability": 0.00341796875,
+      "qubo_energy": 41.76776695296637,
+      "total_distance": 6.0,
+      "violations": [
+        "客户 B 被服务 0 次",
+        "车辆 V0 的位置 0 选择了 1 个客户，但 y=0",
+        "车辆 V0 的位置 1 选择了 0 个客户，但 y=1",
+        "车辆 V0 的位置 1 有访问，但前一位置为空"
+      ]
+    },
+    {
+      "bitstring": "01000101001001000001",
+      "count": 13,
+      "feasible": false,
+      "num_customers_served": 4,
+      "num_vehicles_used": 2,
+      "probability": 0.003173828125,
+      "qubo_energy": 33.18198051533946,
+      "total_distance": 8.0,
+      "violations": [
+        "车辆 V0 的位置 0 选择了 1 个客户，但 y=0",
+        "车辆 V0 的位置 1 有访问，但前一位置为空",
+        "车辆 V1 的位置 1 选择了 1 个客户，但 y=0"
+      ]
+    },
+    {
+      "bitstring": "11000001000001010001",
+      "count": 13,
+      "feasible": false,
+      "num_customers_served": 4,
+      "num_vehicles_used": 2,
+      "probability": 0.003173828125,
+      "qubo_energy": 33.18198051533946,
+      "total_distance": 8.0,
+      "violations": [
+        "车辆 V0 的位置 1 选择了 1 个客户，但 y=0",
+        "车辆 V1 的位置 0 选择了 1 个客户，但 y=0",
+        "车辆 V1 的位置 1 有访问，但前一位置为空"
+      ]
+    },
+    {
+      "bitstring": "10000101001000010001",
+      "count": 13,
+      "feasible": false,
+      "num_customers_served": 2,
+      "num_vehicles_used": 2,
+      "probability": 0.003173828125,
+      "qubo_energy": 40.70710678118655,
+      "total_distance": 4.0,
+      "violations": [
+        "客户 B 被服务 0 次",
+        "客户 D 被服务 0 次",
+        "车辆 V0 的位置 1 选择了 0 个客户，但 y=1",
+        "车辆 V1 的位置 1 选择了 0 个客户，但 y=1"
+      ]
+    },
+    {
+      "bitstring": "10000100001001010001",
+      "count": 13,
+      "feasible": false,
+      "num_customers_served": 2,
+      "num_vehicles_used": 1,
+      "probability": 0.003173828125,
+      "qubo_energy": 41.41421356237309,
+      "total_distance": 4.0,
+      "violations": [
+        "客户 C 被服务 0 次",
+        "客户 D 被服务 0 次",
+        "车辆 V1 的位置 0 选择了 0 个客户，但 y=1",
+        "车辆 V1 的位置 1 选择了 0 个客户，但 y=1"
+      ]
+    },
+    {
+      "bitstring": "00000101001001010001",
+      "count": 12,
+      "feasible": false,
+      "num_customers_served": 3,
+      "num_vehicles_used": 2,
+      "probability": 0.0029296875,
+      "qubo_energy": 12.121320343559645,
+      "total_distance": 6.0,
+      "violations": [
+        "客户 D 被服务 0 次"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,435 @@
+{
+  "candidate_makespans": [
+    4,
+    5
+  ],
+  "constraint_counts": {
+    "cmax_chosen_once": 1,
+    "finish_after_cmax_invalid_pairs": 2,
+    "machine_overlap_invalid_pairs": 7,
+    "operation_starts_once": 4,
+    "precedence_invalid_pairs": 6
+  },
+  "description": "JSSP 时间索引 QUBO；低能量代表更短且更少违规的排程",
+  "horizon": 5,
+  "linear": [
+    {
+      "coefficient": -10.0,
+      "index": 0,
+      "name": "x_j0_o0_t0"
+    },
+    {
+      "coefficient": -10.0,
+      "index": 1,
+      "name": "x_j0_o0_t1"
+    },
+    {
+      "coefficient": -10.0,
+      "index": 2,
+      "name": "x_j0_o0_t2"
+    },
+    {
+      "coefficient": -10.0,
+      "index": 3,
+      "name": "x_j0_o1_t2"
+    },
+    {
+      "coefficient": -10.0,
+      "index": 4,
+      "name": "x_j0_o1_t3"
+    },
+    {
+      "coefficient": -10.0,
+      "index": 5,
+      "name": "x_j0_o1_t4"
+    },
+    {
+      "coefficient": -10.0,
+      "index": 6,
+      "name": "x_j1_o0_t0"
+    },
+    {
+      "coefficient": -10.0,
+      "index": 7,
+      "name": "x_j1_o0_t1"
+    },
+    {
+      "coefficient": -10.0,
+      "index": 8,
+      "name": "x_j1_o0_t2"
+    },
+    {
+      "coefficient": -10.0,
+      "index": 9,
+      "name": "x_j1_o1_t1"
+    },
+    {
+      "coefficient": -10.0,
+      "index": 10,
+      "name": "x_j1_o1_t2"
+    },
+    {
+      "coefficient": -10.0,
+      "index": 11,
+      "name": "x_j1_o1_t3"
+    },
+    {
+      "coefficient": -6.0,
+      "index": 12,
+      "name": "cmax_4"
+    },
+    {
+      "coefficient": -5.0,
+      "index": 13,
+      "name": "cmax_5"
+    }
+  ],
+  "lower_bound_makespan": 4,
+  "num_variables": 14,
+  "offset": 50.0,
+  "penalty": 10.0,
+  "quadratic": [
+    {
+      "coefficient": 20.0,
+      "i": 0,
+      "j": 1,
+      "name_i": "x_j0_o0_t0",
+      "name_j": "x_j0_o0_t1"
+    },
+    {
+      "coefficient": 20.0,
+      "i": 0,
+      "j": 2,
+      "name_i": "x_j0_o0_t0",
+      "name_j": "x_j0_o0_t2"
+    },
+    {
+      "coefficient": 10.0,
+      "i": 0,
+      "j": 9,
+      "name_i": "x_j0_o0_t0",
+      "name_j": "x_j1_o1_t1"
+    },
+    {
+      "coefficient": 20.0,
+      "i": 1,
+      "j": 2,
+      "name_i": "x_j0_o0_t1",
+      "name_j": "x_j0_o0_t2"
+    },
+    {
+      "coefficient": 10.0,
+      "i": 1,
+      "j": 3,
+      "name_i": "x_j0_o0_t1",
+      "name_j": "x_j0_o1_t2"
+    },
+    {
+      "coefficient": 10.0,
+      "i": 1,
+      "j": 9,
+      "name_i": "x_j0_o0_t1",
+      "name_j": "x_j1_o1_t1"
+    },
+    {
+      "coefficient": 10.0,
+      "i": 1,
+      "j": 10,
+      "name_i": "x_j0_o0_t1",
+      "name_j": "x_j1_o1_t2"
+    },
+    {
+      "coefficient": 10.0,
+      "i": 2,
+      "j": 3,
+      "name_i": "x_j0_o0_t2",
+      "name_j": "x_j0_o1_t2"
+    },
+    {
+      "coefficient": 10.0,
+      "i": 2,
+      "j": 4,
+      "name_i": "x_j0_o0_t2",
+      "name_j": "x_j0_o1_t3"
+    },
+    {
+      "coefficient": 10.0,
+      "i": 2,
+      "j": 9,
+      "name_i": "x_j0_o0_t2",
+      "name_j": "x_j1_o1_t1"
+    },
+    {
+      "coefficient": 10.0,
+      "i": 2,
+      "j": 10,
+      "name_i": "x_j0_o0_t2",
+      "name_j": "x_j1_o1_t2"
+    },
+    {
+      "coefficient": 10.0,
+      "i": 2,
+      "j": 11,
+      "name_i": "x_j0_o0_t2",
+      "name_j": "x_j1_o1_t3"
+    },
+    {
+      "coefficient": 20.0,
+      "i": 3,
+      "j": 4,
+      "name_i": "x_j0_o1_t2",
+      "name_j": "x_j0_o1_t3"
+    },
+    {
+      "coefficient": 20.0,
+      "i": 3,
+      "j": 5,
+      "name_i": "x_j0_o1_t2",
+      "name_j": "x_j0_o1_t4"
+    },
+    {
+      "coefficient": 10.0,
+      "i": 3,
+      "j": 8,
+      "name_i": "x_j0_o1_t2",
+      "name_j": "x_j1_o0_t2"
+    },
+    {
+      "coefficient": 20.0,
+      "i": 4,
+      "j": 5,
+      "name_i": "x_j0_o1_t3",
+      "name_j": "x_j0_o1_t4"
+    },
+    {
+      "coefficient": 10.0,
+      "i": 5,
+      "j": 12,
+      "name_i": "x_j0_o1_t4",
+      "name_j": "cmax_4"
+    },
+    {
+      "coefficient": 20.0,
+      "i": 6,
+      "j": 7,
+      "name_i": "x_j1_o0_t0",
+      "name_j": "x_j1_o0_t1"
+    },
+    {
+      "coefficient": 20.0,
+      "i": 6,
+      "j": 8,
+      "name_i": "x_j1_o0_t0",
+      "name_j": "x_j1_o0_t2"
+    },
+    {
+      "coefficient": 20.0,
+      "i": 7,
+      "j": 8,
+      "name_i": "x_j1_o0_t1",
+      "name_j": "x_j1_o0_t2"
+    },
+    {
+      "coefficient": 10.0,
+      "i": 7,
+      "j": 9,
+      "name_i": "x_j1_o0_t1",
+      "name_j": "x_j1_o1_t1"
+    },
+    {
+      "coefficient": 10.0,
+      "i": 8,
+      "j": 9,
+      "name_i": "x_j1_o0_t2",
+      "name_j": "x_j1_o1_t1"
+    },
+    {
+      "coefficient": 10.0,
+      "i": 8,
+      "j": 10,
+      "name_i": "x_j1_o0_t2",
+      "name_j": "x_j1_o1_t2"
+    },
+    {
+      "coefficient": 20.0,
+      "i": 9,
+      "j": 10,
+      "name_i": "x_j1_o1_t1",
+      "name_j": "x_j1_o1_t2"
+    },
+    {
+      "coefficient": 20.0,
+      "i": 9,
+      "j": 11,
+      "name_i": "x_j1_o1_t1",
+      "name_j": "x_j1_o1_t3"
+    },
+    {
+      "coefficient": 20.0,
+      "i": 10,
+      "j": 11,
+      "name_i": "x_j1_o1_t2",
+      "name_j": "x_j1_o1_t3"
+    },
+    {
+      "coefficient": 10.0,
+      "i": 11,
+      "j": 12,
+      "name_i": "x_j1_o1_t3",
+      "name_j": "cmax_4"
+    },
+    {
+      "coefficient": 20.0,
+      "i": 12,
+      "j": 13,
+      "name_i": "cmax_4",
+      "name_j": "cmax_5"
+    }
+  ],
+  "variables": [
+    {
+      "duration": 2,
+      "finish": 2,
+      "index": 0,
+      "job": 0,
+      "kind": "start",
+      "machine": 0,
+      "name": "x_j0_o0_t0",
+      "operation": 0,
+      "start": 0
+    },
+    {
+      "duration": 2,
+      "finish": 3,
+      "index": 1,
+      "job": 0,
+      "kind": "start",
+      "machine": 0,
+      "name": "x_j0_o0_t1",
+      "operation": 0,
+      "start": 1
+    },
+    {
+      "duration": 2,
+      "finish": 4,
+      "index": 2,
+      "job": 0,
+      "kind": "start",
+      "machine": 0,
+      "name": "x_j0_o0_t2",
+      "operation": 0,
+      "start": 2
+    },
+    {
+      "duration": 1,
+      "finish": 3,
+      "index": 3,
+      "job": 0,
+      "kind": "start",
+      "machine": 1,
+      "name": "x_j0_o1_t2",
+      "operation": 1,
+      "start": 2
+    },
+    {
+      "duration": 1,
+      "finish": 4,
+      "index": 4,
+      "job": 0,
+      "kind": "start",
+      "machine": 1,
+      "name": "x_j0_o1_t3",
+      "operation": 1,
+      "start": 3
+    },
+    {
+      "duration": 1,
+      "finish": 5,
+      "index": 5,
+      "job": 0,
+      "kind": "start",
+      "machine": 1,
+      "name": "x_j0_o1_t4",
+      "operation": 1,
+      "start": 4
+    },
+    {
+      "duration": 1,
+      "finish": 1,
+      "index": 6,
+      "job": 1,
+      "kind": "start",
+      "machine": 1,
+      "name": "x_j1_o0_t0",
+      "operation": 0,
+      "start": 0
+    },
+    {
+      "duration": 1,
+      "finish": 2,
+      "index": 7,
+      "job": 1,
+      "kind": "start",
+      "machine": 1,
+      "name": "x_j1_o0_t1",
+      "operation": 0,
+      "start": 1
+    },
+    {
+      "duration": 1,
+      "finish": 3,
+      "index": 8,
+      "job": 1,
+      "kind": "start",
+      "machine": 1,
+      "name": "x_j1_o0_t2",
+      "operation": 0,
+      "start": 2
+    },
+    {
+      "duration": 2,
+      "finish": 3,
+      "index": 9,
+      "job": 1,
+      "kind": "start",
+      "machine": 0,
+      "name": "x_j1_o1_t1",
+      "operation": 1,
+      "start": 1
+    },
+    {
+      "duration": 2,
+      "finish": 4,
+      "index": 10,
+      "job": 1,
+      "kind": "start",
+      "machine": 0,
+      "name": "x_j1_o1_t2",
+      "operation": 1,
+      "start": 2
+    },
+    {
+      "duration": 2,
+      "finish": 5,
+      "index": 11,
+      "job": 1,
+      "kind": "start",
+      "machine": 0,
+      "name": "x_j1_o1_t3",
+      "operation": 1,
+      "start": 3
+    },
+    {
+      "index": 12,
+      "kind": "cmax",
+      "makespan": 4,
+      "name": "cmax_4"
+    },
+    {
+      "index": 13,
+      "kind": "cmax",
+      "makespan": 5,
+      "name": "cmax_5"
+    }
+  ]
+}

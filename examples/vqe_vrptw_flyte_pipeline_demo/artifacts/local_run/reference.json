@@ -1,0 +1,314 @@
+{
+  "best_feasible_bitstring": "10010100011100010100",
+  "best_feasible_num_vehicles_used": 2,
+  "best_feasible_qubo_energy": 2.8284271247461987,
+  "best_feasible_solution": {
+    "all_customers_served_once": true,
+    "bitstring": "10010100011100010100",
+    "capacity_feasible": true,
+    "feasible": true,
+    "num_customer_visits": 4,
+    "num_customers_served": 4,
+    "num_vehicles_used": 2,
+    "qubo_energy": 2.8284271247461987,
+    "routes": [
+      {
+        "capacity": 2.0,
+        "events": [
+          {
+            "arrival_time": 1.0,
+            "customer_id": "C",
+            "demand": 1.0,
+            "departure_time": 2.0,
+            "leg_distance": 1.0,
+            "leg_from": "Depot",
+            "leg_travel_time": 1.0,
+            "position": 0,
+            "service_start_time": 1.0,
+            "time_window": [
+              1.0,
+              1.0
+            ],
+            "vehicle_id": "V0"
+          },
+          {
+            "arrival_time": 3.0,
+            "customer_id": "D",
+            "demand": 1.0,
+            "departure_time": 4.0,
+            "leg_distance": 1.0,
+            "leg_from": "C",
+            "leg_travel_time": 1.0,
+            "position": 1,
+            "service_start_time": 3.0,
+            "time_window": [
+              3.0,
+              3.0
+            ],
+            "vehicle_id": "V0"
+          }
+        ],
+        "load": 2.0,
+        "num_stops": 2,
+        "return_arrival_time": 6.0,
+        "return_distance": 2.0,
+        "route_distance": 4.0,
+        "vehicle_id": "V0"
+      },
+      {
+        "capacity": 2.0,
+        "events": [
+          {
+            "arrival_time": 1.0,
+            "customer_id": "A",
+            "demand": 1.0,
+            "departure_time": 2.0,
+            "leg_distance": 1.0,
+            "leg_from": "Depot",
+            "leg_travel_time": 1.0,
+            "position": 0,
+            "service_start_time": 1.0,
+            "time_window": [
+              1.0,
+              1.0
+            ],
+            "vehicle_id": "V1"
+          },
+          {
+            "arrival_time": 3.0,
+            "customer_id": "B",
+            "demand": 1.0,
+            "departure_time": 4.0,
+            "leg_distance": 1.0,
+            "leg_from": "A",
+            "leg_travel_time": 1.0,
+            "position": 1,
+            "service_start_time": 3.0,
+            "time_window": [
+              3.0,
+              3.0
+            ],
+            "vehicle_id": "V1"
+          }
+        ],
+        "load": 2.0,
+        "num_stops": 2,
+        "return_arrival_time": 6.0,
+        "return_distance": 2.0,
+        "route_distance": 4.0,
+        "vehicle_id": "V1"
+      }
+    ],
+    "served_customers": [
+      "C",
+      "D",
+      "A",
+      "B"
+    ],
+    "total_distance": 8.0,
+    "unique_served_customers": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "violations": []
+  },
+  "best_feasible_total_distance": 8.0,
+  "exact_min_energy_bitstring": "10010100011100010100",
+  "exact_min_qubo_energy": 2.8284271247461987,
+  "method": "brute_force_enumeration",
+  "num_enumerated_states": 1048576,
+  "num_feasible_states": 2,
+  "num_variables": 20,
+  "top_feasible": [
+    {
+      "bitstring": "10010100011100010100",
+      "num_vehicles_used": 2,
+      "qubo_energy": 2.8284271247461987,
+      "routes": [
+        {
+          "capacity": 2.0,
+          "events": [
+            {
+              "arrival_time": 1.0,
+              "customer_id": "C",
+              "demand": 1.0,
+              "departure_time": 2.0,
+              "leg_distance": 1.0,
+              "leg_from": "Depot",
+              "leg_travel_time": 1.0,
+              "position": 0,
+              "service_start_time": 1.0,
+              "time_window": [
+                1.0,
+                1.0
+              ],
+              "vehicle_id": "V0"
+            },
+            {
+              "arrival_time": 3.0,
+              "customer_id": "D",
+              "demand": 1.0,
+              "departure_time": 4.0,
+              "leg_distance": 1.0,
+              "leg_from": "C",
+              "leg_travel_time": 1.0,
+              "position": 1,
+              "service_start_time": 3.0,
+              "time_window": [
+                3.0,
+                3.0
+              ],
+              "vehicle_id": "V0"
+            }
+          ],
+          "load": 2.0,
+          "num_stops": 2,
+          "return_arrival_time": 6.0,
+          "return_distance": 2.0,
+          "route_distance": 4.0,
+          "vehicle_id": "V0"
+        },
+        {
+          "capacity": 2.0,
+          "events": [
+            {
+              "arrival_time": 1.0,
+              "customer_id": "A",
+              "demand": 1.0,
+              "departure_time": 2.0,
+              "leg_distance": 1.0,
+              "leg_from": "Depot",
+              "leg_travel_time": 1.0,
+              "position": 0,
+              "service_start_time": 1.0,
+              "time_window": [
+                1.0,
+                1.0
+              ],
+              "vehicle_id": "V1"
+            },
+            {
+              "arrival_time": 3.0,
+              "customer_id": "B",
+              "demand": 1.0,
+              "departure_time": 4.0,
+              "leg_distance": 1.0,
+              "leg_from": "A",
+              "leg_travel_time": 1.0,
+              "position": 1,
+              "service_start_time": 3.0,
+              "time_window": [
+                3.0,
+                3.0
+              ],
+              "vehicle_id": "V1"
+            }
+          ],
+          "load": 2.0,
+          "num_stops": 2,
+          "return_arrival_time": 6.0,
+          "return_distance": 2.0,
+          "route_distance": 4.0,
+          "vehicle_id": "V1"
+        }
+      ],
+      "total_distance": 8.0
+    },
+    {
+      "bitstring": "11000101001001010001",
+      "num_vehicles_used": 2,
+      "qubo_energy": 2.8284271247461987,
+      "routes": [
+        {
+          "capacity": 2.0,
+          "events": [
+            {
+              "arrival_time": 1.0,
+              "customer_id": "A",
+              "demand": 1.0,
+              "departure_time": 2.0,
+              "leg_distance": 1.0,
+              "leg_from": "Depot",
+              "leg_travel_time": 1.0,
+              "position": 0,
+              "service_start_time": 1.0,
+              "time_window": [
+                1.0,
+                1.0
+              ],
+              "vehicle_id": "V0"
+            },
+            {
+              "arrival_time": 3.0,
+              "customer_id": "B",
+              "demand": 1.0,
+              "departure_time": 4.0,
+              "leg_distance": 1.0,
+              "leg_from": "A",
+              "leg_travel_time": 1.0,
+              "position": 1,
+              "service_start_time": 3.0,
+              "time_window": [
+                3.0,
+                3.0
+              ],
+              "vehicle_id": "V0"
+            }
+          ],
+          "load": 2.0,
+          "num_stops": 2,
+          "return_arrival_time": 6.0,
+          "return_distance": 2.0,
+          "route_distance": 4.0,
+          "vehicle_id": "V0"
+        },
+        {
+          "capacity": 2.0,
+          "events": [
+            {
+              "arrival_time": 1.0,
+              "customer_id": "C",
+              "demand": 1.0,
+              "departure_time": 2.0,
+              "leg_distance": 1.0,
+              "leg_from": "Depot",
+              "leg_travel_time": 1.0,
+              "position": 0,
+              "service_start_time": 1.0,
+              "time_window": [
+                1.0,
+                1.0
+              ],
+              "vehicle_id": "V1"
+            },
+            {
+              "arrival_time": 3.0,
+              "customer_id": "D",
+              "demand": 1.0,
+              "departure_time": 4.0,
+              "leg_distance": 1.0,
+              "leg_from": "C",
+              "leg_travel_time": 1.0,
+              "position": 1,
+              "service_start_time": 3.0,
+              "time_window": [
+                3.0,
+                3.0
+              ],
+              "vehicle_id": "V1"
+            }
+          ],
+          "load": 2.0,
+          "num_stops": 2,
+          "return_arrival_time": 6.0,
+          "return_distance": 2.0,
+          "route_distance": 4.0,
+          "vehicle_id": "V1"
+        }
+      ],
+      "total_distance": 8.0
+    }
+  ]
+}

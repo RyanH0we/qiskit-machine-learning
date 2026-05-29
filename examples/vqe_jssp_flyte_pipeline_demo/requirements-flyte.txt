@@ -1,0 +1,10 @@
+# 与 pipeline_lib.py 的 ImageSpec(packages=...) 保持一致。
+flytekit==1.16.21
+qiskit>=2,<3
+qiskit-algorithms==0.4.0
+qiskit-aer>=0.17
+numpy>=2.0
+scipy>=1.10
+matplotlib>=3.7
+dill>=0.3.4
+pylatexenc>=2.10
